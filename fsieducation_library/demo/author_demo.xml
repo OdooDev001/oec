@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsi_author_1" model="fsi.author">
+            <field name="name">Mathew James</field>
+        </record>
+
+        <record id="fsi_author_2" model="fsi.author">
+            <field name="name">Janet Gabreiel</field>
+        </record>
+
+        <record id="fsi_author_3" model="fsi.author">
+            <field name="name">Josh Tenenbaum</field>
+        </record>
+
+        <record id="fsi_author_4" model="fsi.author">
+            <field name="name">Dr. P. R. Narayan</field>
+        </record>
+
+        <record id="fsi_author_5" model="fsi.author">
+            <field name="name">Tamboli and Jha</field>
+        </record>
+
+        <record id="fsi_author_6" model="fsi.author">
+            <field name="name">K. Rajnathan</field>
+        </record>
+    </data>
+</odoo>

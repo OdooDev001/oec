@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fsieducationerptranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-28 11:50+0000\n"
+"PO-Revision-Date: 2018-03-20 06:14-0400\n"
+"Last-Translator: akkicode <aakash@fsieducation.org>\n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: fsieducationerptranslation\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /master/fsieducation_activity/i18n/fsieducation_activity.pot\n"
+"Language: vi_VN\n"
+
+#. module: fsieducation_activity
+#: view:fsi.activity:fsieducation_activity.view_fsi_activity_form
+#: view:fsi.activity:fsieducation_activity.view_fsi_activity_search
+#: view:fsi.activity:fsieducation_activity.view_fsi_activity_tree
+#: view:fsi.student:fsieducation_activity.view_fsi_student_form_timetable_inherit
+#: field:fsi.student,activity_log:0
+msgid "Activity Log"
+msgstr "Hoạt động đăng nhập"
+
+#. module: fsieducation_activity
+#: model:ir.actions.act_window,name:fsieducation_activity.act_fsien_fsi_activity_view
+#: model:ir.ui.menu,name:fsieducation_activity.menu_fsi_activity_sub
+msgid "Activity Logs"
+msgstr "Bản ghi hoạt động"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,type_id:0
+#: view:fsi.activity.type:fsieducation_activity.view_fsi_activity_type_form
+#: view:fsi.activity.type:fsieducation_activity.view_fsi_activity_type_search
+#: view:fsi.activity.type:fsieducation_activity.view_fsi_activity_type_tree
+msgid "Activity Type"
+msgstr "Loại hình hoạt động"
+
+#. module: fsieducation_activity
+#: model:ir.actions.act_window,name:fsieducation_activity.act_fsien_fsi_activity_type_view
+#: model:ir.ui.menu,name:fsieducation_activity.menu_fsi_activity_type_sub
+msgid "Activity Types"
+msgstr "Các loại hoạt động"
+
+#. module: fsieducation_activity
+#: view:student.migrate:fsieducation_activity.student_migrate_form
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,create_uid:0
+#: field:fsi.activity.type,create_uid:0
+#: field:student.migrate,create_uid:0
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,create_date:0
+#: field:fsi.activity.type,create_date:0
+#: field:student.migrate,create_date:0
+msgid "Created on"
+msgstr "Tạo ngày"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,date:0
+#: field:student.migrate,date:0
+msgid "Date"
+msgstr "Ngày"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,faculty_id:0
+msgid "Faculty"
+msgstr "Giảng viên"
+
+#. module: fsieducation_activity
+#: view:student.migrate:fsieducation_activity.student_migrate_form
+msgid "Forward"
+msgstr "Chuyển tiếp"
+
+#. module: fsieducation_activity
+#: field:student.migrate,course_from_id:0
+msgid "From Course"
+msgstr "Từ khóa"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,id:0
+#: field:fsi.activity.type,id:0
+#: field:student.migrate,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,write_uid:0
+#: field:fsi.activity.type,write_uid:0
+#: field:student.migrate,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập Nhật lần cuối bởi"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,write_date:0
+#: field:fsi.activity.type,write_date:0
+#: field:student.migrate,write_date:0
+msgid "Last Updated on"
+msgstr "Lần cập nhật cuối"
+
+#. module: fsieducation_activity
+#: field:fsi.activity.type,name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: fsieducation_activity
+#: field:fsi.activity,student_id:0
+msgid "Student"
+msgstr "Sinh viên"
+
+#. module: fsieducation_activity
+#: view:student.migrate:fsieducation_activity.student_migrate_form
+msgid "Student Migrate"
+msgstr "Học sinh di chuyển"
+
+#. module: fsieducation_activity
+#: model:ir.ui.menu,name:fsieducation_activity.menu_student_migrate
+#: model:ir.actions.act_window,name:fsieducation_activity.act_fsien_student_migrate_view
+msgid "Student Migration"
+msgstr "Học sinh di chuyển"
+
+#. module: fsieducation_activity
+#: view:student.migrate:fsieducation_activity.student_migrate_form
+#: field:student.migrate,student_ids:0
+msgid "Student(s)"
+msgstr "Student(s)"
+
+#. module: fsieducation_activity
+#: field:student.migrate,course_to_id:0
+msgid "To Course"
+msgstr "Khóa học"
+

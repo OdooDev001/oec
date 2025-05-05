@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_fsi_course_tree_pt_inherit" model="ir.ui.view">
+            <field name="name">fsi.course.list.pt.inherit</field>
+            <field name="model">fsi.course</field>
+            <field name="inherit_id" ref="fsieducation_core.view_fsi_course_tree"/>
+            <field name="priority" eval="9"/>
+            <field name="arch" type="xml">
+                <field name="evaluation_type" position="after">
+                    <field name="fees_term_id" required="1"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_fsi_course_form_pt_inherit" model="ir.ui.view">
+            <field name="name">fsi.course.form.pt.inherit</field>
+            <field name="model">fsi.course</field>
+            <field name="inherit_id" ref="fsieducation_core.view_fsi_course_form"/>
+            <field name="priority" eval="9"/>
+            <field name="arch" type="xml">
+                <field name="evaluation_type" position="after">
+                    <field name="fees_term_id" required="1"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

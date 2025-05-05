@@ -1,0 +1,165 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-15 09:10+0000"
+"PO-Revision-Date:2024-02-15 09:10+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__active
+msgid "Active"
+msgstr "Aktiv"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Archived"
+msgstr "Arkiveret"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__asset_id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__asset_line
+msgid "Asset"
+msgstr "Aktiv"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Asset Management"
+msgstr "Asset Management"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__batch_id
+msgid "Batch"
+msgstr "Parti"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Capacity"
+msgstr "Kapacitet"
+
+#. module: fsieducation_classroom
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_school_config_class_room
+msgid "Class Room Management"
+msgstr "Klasselokale ledelse"
+
+#. module: fsieducation_classroom
+#: model:ir.actions.act_window,name:fsieducation_classroom.act_fsien_fsi_classroom_view
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_classroom_sub
+msgid "Class Rooms"
+msgstr "Klasseværelser"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_facility_line__classroom_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_tree
+msgid "Classroom"
+msgstr "Klasseværelse"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_asset
+msgid "Classroom Assets"
+msgstr "Klasseværelsesaktiver"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__code
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__code
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Code"
+msgstr "Kode"
+
+#. module: fsieducation_classroom
+#: model:ir.model.constraint,message:fsieducation_classroom.constraint_fsi_classroom_unique_classroom_code
+msgid "Code should be unique per classroom!"
+msgstr "Koden skal være unik pr. klasseværelse!"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__course_id
+msgid "Course"
+msgstr "Rute"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_uid
+msgid "Created by"
+msgstr "Lavet af"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_date
+msgid "Created on"
+msgstr "Oprettet den"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__display_name
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__display_name
+msgid "Display Name"
+msgstr "Vist navn"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Facilities"
+msgstr "Faciliteter"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__facilities
+msgid "Facility Lines"
+msgstr "Facilitetslinjer"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Group By..."
+msgstr "Gruppér efter..."
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_uid
+msgid "Last Updated by"
+msgstr "Sidst fsidateret af"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_date
+msgid "Last Updated on"
+msgstr "Sidst fsidateret den"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_facility_line
+msgid "Manage Facility Line"
+msgstr "Administrer Facility Line"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__name
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Name"
+msgstr "Navn"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__capacity
+msgid "No of Person"
+msgstr "Antal person"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_id
+msgid "Product"
+msgstr "Produkt"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_uom_qty
+msgid "Quantity"
+msgstr "Antal"
+

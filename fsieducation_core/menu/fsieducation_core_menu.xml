@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="action_fsieducation_configuration" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="path">res-config-settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'fsieducation_core'}</field>
+    </record>
+    <!-- fsieducation Menu -->
+    <menuitem id="menu_fsi_school_root"
+              name="SIS"
+              sequence="220"
+              web_icon="fsieducation_core,static/description/sis.png"/>
+
+    <menuitem id="menu_fsi_school_main"
+              name="Students"
+              parent="menu_fsi_school_root"
+              sequence="10"
+              action="act_open_fsi_student_view"
+              groups="group_fsi_faculty"/>
+
+    <menuitem id="menu_fsi_faculty_main"
+              name="Faculties"
+              parent="menu_fsi_school_root"
+              sequence="20"
+              action="act_open_fsi_faculty_view"
+              groups="fsieducation_core.group_fsi_faculty"/>
+
+    <menuitem id="menu_fsi_general_main"
+              name="General"
+              parent="menu_fsi_school_root"
+              sequence="30"/>
+
+    <!-- Configuration Menu -->
+    <menuitem id="menu_fsi_school_config"
+              name="Configuration"
+              parent="menu_fsi_school_root"
+              sequence="50"/>
+
+    <menuitem id="menu_fsi_school_config_course"
+              name="Course Management"
+              parent="menu_fsi_school_config"
+              sequence="10"/>
+
+    <menuitem id="menu_fsi_course_sub"
+              name="Courses"
+              parent="menu_fsi_school_config_course"
+              sequence="10"
+              action="act_open_fsi_course_view"
+              groups="group_fsi_back_office_admin"/>
+
+    <menuitem id="menu_fsi_batch_sub"
+              name="Batches"
+              parent="menu_fsi_school_config_course"
+              sequence="20"
+              action="act_open_fsi_batch_view"
+              groups="group_fsi_back_office_admin"/>
+
+    <menuitem id="menu_fsi_department_sub"
+              name="Department"
+              parent="menu_fsi_school_config_course"
+              sequence="20"
+              action="act_open_fsi_department_view"
+              groups="group_fsi_back_office_admin"/>
+
+    <menuitem id="menu_fsi_school_config_subject"
+              name="Subject Management"
+              parent="menu_fsi_school_config"
+              sequence="20"/>
+
+    <menuitem id="menu_fsi_subject_sub"
+              name="Subjects"
+              sequence="10"
+              parent="menu_fsi_school_config_subject"
+              action="act_open_fsi_subject_view"
+              groups="group_fsi_back_office_admin,fsieducation_core.group_fsi_faculty"/>
+
+    <menuitem id="menu_fsi_school_config_general"
+              name="General Management"
+              parent="menu_fsi_school_config"
+              sequence="80"/>
+
+    <menuitem id="menu_fsi_category_sub"
+              name="Categories"
+              parent="menu_fsi_school_config_general"
+              sequence="40"
+              action="act_open_fsi_category_view"
+              groups="fsieducation_core.group_fsi_back_office_admin"/>
+
+    <!-- Activity Root -->
+    <menuitem id="menu_fsi_school_config_activity"
+              name="Activity Management"
+              parent="menu_fsi_school_config"
+              sequence="40"/>
+
+    <!-- Report Root -->
+    <menuitem id="menu_fsi_report_main"
+              name="Reporting"
+              parent="menu_fsi_school_root"
+              sequence="40"/>
+
+    <menuitem name="Settings"
+              id="menu_fsieducation_config"
+              action="action_fsieducation_configuration"
+              parent="menu_fsi_school_config"
+              groups="base.group_system"
+              sequence="1"/>
+
+    <menuitem id="menu_academic_year" name="Academic Year"
+              sequence="1"
+              parent="fsieducation_core.menu_fsi_school_config"
+              action="act_fsi_academic_year_view"
+              groups="fsieducation_core.group_fsi_back_office_admin"/>
+
+    <menuitem id="menu_academic_term" name="Academic Term"
+              sequence="2"
+              parent="fsieducation_core.menu_fsi_school_config"
+              action="act_fsi_academic_term_view"
+              groups="fsieducation_core.group_fsi_back_office_admin"/>
+
+    <menuitem id="menu_fsi_school_config_program"
+              name="Program Management"
+              parent="fsieducation_core.menu_fsi_school_config"
+              sequence="9"/>
+
+    <menuitem id="menu_fsi_program_sub"
+              name="Programs"
+              parent="menu_fsi_school_config_program"
+              sequence="10"
+              action="act_open_fsi_program_view"
+              groups="group_fsi_back_office_admin"/>
+
+    <menuitem id="menu_fsi_program_level_sub"
+              name="Program Level"
+              parent="menu_fsi_school_config_program"
+              sequence="10"
+              action="act_open_fsi_program_level_view"
+              groups="group_fsi_back_office_admin"/>
+
+</odoo>

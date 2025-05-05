@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsieducation_core.fsi_course_1" model="fsi.course">
+            <field name="code">BOA</field>
+            <field name="name">Bachelor of Accountancy</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_2" model="fsi.course">
+            <field name="code">BOA1</field>
+            <field name="name">BOA-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_1"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_1'), ref('fsieducation_core.fsi_subject_2'), ref('fsieducation_core.fsi_subject_3'), ref('fsieducation_core.fsi_subject_4')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+        <record id="fsieducation_core.fsi_course_3" model="fsi.course">
+            <field name="code">BOA2</field>
+            <field name="name">BOA-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_1"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_5'), ref('fsieducation_core.fsi_subject_6'), ref('fsieducation_core.fsi_subject_7'), ref('fsieducation_core.fsi_subject_8')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+        <record id="fsieducation_core.fsi_course_Engg" model="fsi.course">
+            <field name="code">ENGG</field>
+            <field name="name">Engineering and Technology</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_4" model="fsi.course">
+            <field name="code">COMP</field>
+            <field name="name">Computer Engineering</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_Engg"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_9'), ref('fsieducation_core.fsi_subject_10'), ref('fsieducation_core.fsi_subject_11'), ref('fsieducation_core.fsi_subject_12')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_5" model="fsi.course">
+            <field name="code">CIVIL</field>
+            <field name="name">Civil Engineering</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_Engg"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_13'), ref('fsieducation_core.fsi_subject_14'), ref('fsieducation_core.fsi_subject_15'), ref('fsieducation_core.fsi_subject_16')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_6" model="fsi.course">
+            <field name="code">CHEM</field>
+            <field name="name">Chemical Engineering</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_Engg"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_17'), ref('fsieducation_core.fsi_subject_18'), ref('fsieducation_core.fsi_subject_19'), ref('fsieducation_core.fsi_subject_20')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_business_administration" model="fsi.course">
+            <field name="code">BM</field>
+            <field name="name">Business and Management</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_4"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_7" model="fsi.course">
+            <field name="code">DBM</field>
+            <field name="name">Diploma in Business Management</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_business_administration"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_21'), ref('fsieducation_core.fsi_subject_22')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_4"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_8" model="fsi.course">
+            <field name="code">BBM</field>
+            <field name="name">Bachelor of Business Management</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_business_administration"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_23'), ref('fsieducation_core.fsi_subject_24')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_4"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_9" model="fsi.course">
+            <field name="code">BMS</field>
+            <field name="name">Bachelor of Management Studies</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_business_administration"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_25'), ref('fsieducation_core.fsi_subject_26'), ref('fsieducation_core.fsi_subject_27'), ref('fsieducation_core.fsi_subject_28')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_4"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_10" model="fsi.course">
+            <field name="code">MBA</field>
+            <field name="name">Master of Business Administration</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_business_administration"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_29'), ref('fsieducation_core.fsi_subject_30'), ref('fsieducation_core.fsi_subject_31'), ref('fsieducation_core.fsi_subject_32')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_4"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_computer_science" model="fsi.course">
+            <field name="code">CS</field>
+            <field name="name">Computer Science</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_11" model="fsi.course">
+            <field name="code">DS</field>
+            <field name="name">Data Scientist</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_computer_science"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_33'), ref('fsieducation_core.fsi_subject_34'), ref('fsieducation_core.fsi_subject_35'), ref('fsieducation_core.fsi_subject_36')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+        <record id="fsieducation_core.fsi_course_12" model="fsi.course">
+            <field name="code">DA</field>
+            <field name="name">Data Analyst</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_computer_science"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_37'), ref('fsieducation_core.fsi_subject_38'), ref('fsieducation_core.fsi_subject_39'), ref('fsieducation_core.fsi_subject_40')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_marine_biology" model="fsi.course">
+            <field name="code">MBLSC</field>
+            <field name="name">Marine Biology and Life Sciences</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_13" model="fsi.course">
+            <field name="code">AG</field>
+            <field name="name">Agriculture</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_marine_biology"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_41'), ref('fsieducation_core.fsi_subject_42')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_14" model="fsi.course">
+            <field name="code">BPH</field>
+            <field name="name">Biophysics</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_marine_biology"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_43'), ref('fsieducation_core.fsi_subject_44')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_15" model="fsi.course">
+            <field name="code">FR</field>
+            <field name="name">Forestry</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_marine_biology"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_45'), ref('fsieducation_core.fsi_subject_46'), ref('fsieducation_core.fsi_subject_47')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_medicine" model="fsi.course">
+            <field name="code">MD</field>
+            <field name="name">Medicine</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_16" model="fsi.course">
+            <field name="code">MBBS</field>
+            <field name="name">Bachelor of Medicine and Bachelor of Surgery</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_medicine"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_48'), ref('fsieducation_core.fsi_subject_49'), ref('fsieducation_core.fsi_subject_50')])]"/>
+            <!-- <field name="department_id" ref="fsieducation_core.fsi_department_3"/> -->
+        </record>
+        <record id="fsieducation_core.fsi_course_17" model="fsi.course">
+            <field name="code">BPT</field>
+            <field name="name">Bachelor of Physiotherapy</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_medicine"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_51'), ref('fsieducation_core.fsi_subject_52'), ref('fsieducation_core.fsi_subject_53')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+        <record id="fsieducation_core.fsi_course_18" model="fsi.course">
+            <field name="code">BDS</field>
+            <field name="name">Bachelor of Dental Surgery</field>
+            <field name="evaluation_type">normal</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_medicine"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_54'), ref('fsieducation_core.fsi_subject_55'), ref('fsieducation_core.fsi_subject_56')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+        <record id="fsieducation_core.fsi_course_19" model="fsi.course">
+            <field name="code">SS</field>
+            <field name="name">Social Studies</field>
+            <field name="evaluation_type">normal</field>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_57'), ref('fsieducation_core.fsi_subject_58'), ref('fsieducation_core.fsi_subject_59')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_20" model="fsi.course">
+            <field name="code">SC</field>
+            <field name="name">Science</field>
+            <field name="evaluation_type">normal</field>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_60'), ref('fsieducation_core.fsi_subject_61'), ref('fsieducation_core.fsi_subject_62')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_21" model="fsi.course">
+            <field name="code">CLS</field>
+            <field name="name">Cultural Studies</field>
+            <field name="evaluation_type">normal</field>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_63'), ref('fsieducation_core.fsi_subject_64'), ref('fsieducation_core.fsi_subject_65')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_22" model="fsi.course">
+            <field name="code">MTH</field>
+            <field name="name">Mathematics</field>
+            <field name="evaluation_type">normal</field>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_66'), ref('fsieducation_core.fsi_subject_67'), ref('fsieducation_core.fsi_subject_68')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_2"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_23" model="fsi.course">
+            <field name="code">FSL</field>
+            <field name="name">Financial Services Law</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_69'), ref('fsieducation_core.fsi_subject_70')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_1"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_24" model="fsi.course">
+            <field name="code">HL</field>
+            <field name="name">Healthcare Law</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_71'), ref('fsieducation_core.fsi_subject_72')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_1"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_25" model="fsi.course">
+            <field name="code">SL</field>
+            <field name="name">Sports Law</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_73'), ref('fsieducation_core.fsi_subject_74')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_1"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_26" model="fsi.course">
+            <field name="code">ECL201</field>
+            <field name="name">Ethics and Corporate Law</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_84'), ref('fsieducation_core.fsi_subject_85')])]"/>
+            <field name="department_id" ref="fsieducation_core.fsi_department_1"/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_27" model="fsi.course">
+            <field name="code">BIO110</field>
+            <field name="name">Biology Fundamentals</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_3'), ref('fsieducation_core.fsi_subject_4')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_28" model="fsi.course">
+            <field name="code">CHEM200</field>
+            <field name="name">Organic Chemistry</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_5'), ref('fsieducation_core.fsi_subject_6')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_29" model="fsi.course">
+            <field name="code">ENG250</field>
+            <field name="name">Shakespearean Literature</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_7'), ref('fsieducation_core.fsi_subject_8')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_30" model="fsi.course">
+            <field name="code">HIS302</field>
+            <field name="name">Modern World History</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_9'), ref('fsieducation_core.fsi_subject_10')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_31" model="fsi.course">
+            <field name="code">PHY101</field>
+            <field name="name">Physics I</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_11'), ref('fsieducation_core.fsi_subject_12')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_32" model="fsi.course">
+            <field name="code">ART210</field>
+            <field name="name">History of Art</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_13'), ref('fsieducation_core.fsi_subject_14')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_33" model="fsi.course">
+            <field name="code">PSY150</field>
+            <field name="name">Introduction to Psychology</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_15'), ref('fsieducation_core.fsi_subject_16')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+        <record id="fsieducation_core.fsi_course_34" model="fsi.course">
+            <field name="code">FSL001</field>
+            <field name="name">FSL-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_23"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_75'), ref('fsieducation_core.fsi_subject_76')])]"/>
+            <field name="department_id" ref=""/>
+        </record>
+        <record id="fsieducation_core.fsi_course_35" model="fsi.course">
+            <field name="code">FSL002</field>
+            <field name="name">FSL-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_23"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_77'), ref('fsieducation_core.fsi_subject_79')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_36" model="fsi.course">
+            <field name="code">SL001</field>
+            <field name="name">SL-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_25"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_80'), ref('fsieducation_core.fsi_subject_81')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_37" model="fsi.course">
+            <field name="code">SL002</field>
+            <field name="name">SL-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_25"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_81')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_38" model="fsi.course">
+            <field name="code">HL001</field>
+            <field name="name">HL-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_24"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_82')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_39" model="fsi.course">
+            <field name="code">HL002</field>
+            <field name="name">HL-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_24"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_83')])]"/>
+            <field name="department_id" ref=""/>
+
+        </record>
+        <record id="fsieducation_core.fsi_course_40" model="fsi.course">
+            <field name="code">CEN001</field>
+            <field name="name">COM-ENG-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_4"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_9')]),(6,0, [ref('fsieducation_core.fsi_subject_10')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_41" model="fsi.course">
+            <field name="code">CEN002</field>
+            <field name="name">COM-ENG-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_4"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_11')]),(6,0, [ref('fsieducation_core.fsi_subject_12')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_42" model="fsi.course">
+            <field name="code">CIVIL001</field>
+            <field name="name">CIVIL-ENG-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_5"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_15')]),(6,0, [ref('fsieducation_core.fsi_subject_16')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_43" model="fsi.course">
+            <field name="code">CIVIL002</field>
+            <field name="name">CIVIL-ENG-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_5"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_17')]),(6,0, [ref('fsieducation_core.fsi_subject_18')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_44" model="fsi.course">
+            <field name="code">CE001</field>
+            <field name="name">CE-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_6"/>
+            <field name="subject_ids"
+                eval="[(6,0, [ref('fsieducation_core.fsi_subject_19')]),(6,0, [ref('fsieducation_core.fsi_subject_18')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_45" model="fsi.course">
+            <field name="code">CE002</field>
+            <field name="name">CE-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_6"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_46" model="fsi.course">
+            <field name="code">DIPMG001</field>
+            <field name="name">DBM-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_7"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_47" model="fsi.course">
+            <field name="code">DIPMG002</field>
+            <field name="name">DBM-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_7"/>
+            <field name="subject_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_subject_23'), ref('fsieducation_core.fsi_subject_24')])]"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_48" model="fsi.course">
+            <field name="code">BBM001</field>
+            <field name="name">BBM-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_8"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_49" model="fsi.course">
+            <field name="code">BMS001</field>
+            <field name="name">BBM-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_8"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_50" model="fsi.course">
+            <field name="code">BMS002</field>
+            <field name="name">BMS-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_9"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_52" model="fsi.course">
+            <field name="code">DATA001</field>
+            <field name="name">DA-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_12"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_53" model="fsi.course">
+            <field name="code">DATA002</field>
+            <field name="name">DA-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_12"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_54" model="fsi.course">
+            <field name="code">MBA001</field>
+            <field name="name">MBA-Sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_10"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_55" model="fsi.course">
+            <field name="code">MBA002</field>
+            <field name="name">MBA-Sem-2</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_10"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_59" model="fsi.course">
+            <field name="code">MA001</field>
+            <field name="name">Management Accounting</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+
+        </record>
+        <record id="fsieducation_core.fsi_course_56" model="fsi.course">
+            <field name="code">FSA001</field>
+            <field name="name">Financial Statement Analysis</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+
+        </record>
+        <record id="fsieducation_core.fsi_course_57" model="fsi.course">
+            <field name="code">ADE001</field>
+            <field name="name">Accounting in a Digital Economy</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+
+        </record>
+        <record id="fsieducation_core.fsi_course_64" model="fsi.course">
+            <field name="code">FSA1</field>
+            <field name="name">FSA-sem-01</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_56"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_58" model="fsi.course">
+            <field name="code">ADE01</field>
+            <field name="name">ADE-sem-01</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_57"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_60" model="fsi.course">
+            <field name="code">MA1</field>
+            <field name="name">MA-sem-01</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_59"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_61" model="fsi.course">
+            <field name="code">ECL1</field>
+            <field name="name">ECL-sem-01</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_26"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_62" model="fsi.course">
+            <field name="code">ECL2</field>
+            <field name="name">ECL-sem-02</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_26"/>
+        </record>
+        <record id="fsieducation_core.fsi_course_62" model="fsi.course">
+            <field name="code">RFM01</field>
+            <field name="name">Regulation of Financial Markets</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_1"/>
+
+        </record>
+        <record id="fsieducation_core.fsi_course_63" model="fsi.course">
+            <field name="code">RFM02</field>
+            <field name="name">RFM-sem-1</field>
+            <field name="evaluation_type">GPA</field>
+            <field name="parent_id" ref="fsieducation_core.fsi_course_62"/>
+        </record>
+
+    </data>
+</odoo>

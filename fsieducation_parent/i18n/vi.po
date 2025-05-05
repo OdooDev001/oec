@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fsieducationerptranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-30 06:59+0000\n"
+"PO-Revision-Date: 2018-03-20 08:40-0400\n"
+"Last-Translator: akkicode <aakash@fsieducation.org>\n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: fsieducationerptranslation\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /master/fsieducation_parent/i18n/fsieducation_parent.pot\n"
+"Language: vi_VN\n"
+
+#. module: fsieducation_parent
+#: field:fsi.parent,create_uid:0
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: fsieducation_parent
+#: field:fsi.parent,create_date:0
+msgid "Created on"
+msgstr "Tạo ngày"
+
+#. module: fsieducation_parent
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_search
+msgid "Group By..."
+msgstr "Nhóm theo..."
+
+#. module: fsieducation_parent
+#: field:fsi.parent,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: fsieducation_parent
+#: field:fsi.parent,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập Nhật lần cuối bởi"
+
+#. module: fsieducation_parent
+#: field:fsi.parent,write_date:0
+msgid "Last Updated on"
+msgstr "Lần cập nhật cuối"
+
+#. module: fsieducation_parent
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_search
+#: field:fsi.parent,name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: fsieducation_parent
+#: model:ir.actions.act_window,name:fsieducation_parent.act_fsien_fsi_parent_view
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_parent_main_parent
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_parent_root
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_parent_sub_parent
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_form
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_search
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_tree
+#: field:fsi.student,parent_ids:0
+#: model:res.groups,name:fsieducation_parent.group_fsi_parent
+msgid "Parent"
+msgstr "Phụ huynh"
+
+#. module: fsieducation_parent
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_form
+msgid "Parent Name"
+msgstr "Tên phụ huynh"
+
+#. module: fsieducation_parent
+#: view:fsi.student:fsieducation_parent.parent_student_form_view
+#: field:res.users,parent_ids:0
+msgid "Parents"
+msgstr "Cha mẹ"
+
+#. module: fsieducation_parent
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_form
+#: field:fsi.parent,student_ids:0
+msgid "Student(s)"
+msgstr "Student(s)"
+
+#. module: fsieducation_parent
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_student_main_parent
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_student_sub_parent
+msgid "Students"
+msgstr "Sinh viên"
+
+#. module: fsieducation_parent
+#: field:fsi.parent,user_id:0
+msgid "User"
+msgstr "Người sử dụng"
+
+#. module: fsieducation_parent
+#: view:fsi.parent:fsieducation_parent.view_fsi_parent_form
+msgid "User Id"
+msgstr "Id người dùng"
+
+#. module: fsieducation_parent
+#: model:ir.model,name:fsieducation_parent.model_res_users
+msgid "Users"
+msgstr "Người dùng"
+

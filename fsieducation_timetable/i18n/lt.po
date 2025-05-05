@@ -1,0 +1,1133 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fsieducation_timetable
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 11:36+0000\n"
+"PO-Revision-Date: 2024-02-16 11:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__minute__00
+msgid "00"
+msgstr "0"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__hour__10
+msgid "10"
+msgstr ""
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__hour__11
+msgid "11"
+msgstr ""
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__hour__12
+msgid "12"
+msgstr ""
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__minute__15
+msgid "15"
+msgstr ""
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__minute__30
+msgid "30"
+msgstr ""
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__minute__45
+msgid "45"
+msgstr ""
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_student_generate
+msgid "<b>Batch :</b>"
+msgstr "<b> partija: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "<b>Batch:</b>"
+msgstr "<b> partija: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_student_generate
+msgid "<b>Class :</b>"
+msgstr "<b> klasė: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "<b>Course:</b>"
+msgstr "<b> Kursas: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "<b>End:</b>"
+msgstr "<b> pabaiga: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_teacher_generate
+msgid "<b>Faculty Name:</b>"
+msgstr "<b> Fakulteto vardas: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "<b>Faculty:</b>"
+msgstr "<b> Fakultetas: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_student_generate
+msgid "<b>From Date :</b>"
+msgstr "<b> Nuo datos: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_teacher_generate
+msgid "<b>From Date:</b>"
+msgstr "<b> Nuo datos: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "<b>Start:</b>"
+msgstr "<b> Pradėti: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "<b>Subject:</b>"
+msgstr "<b> Tema: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_student_generate
+msgid "<b>To Date :</b>"
+msgstr "<b> iki šiol: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_teacher_generate
+msgid "<b>To Date:</b>"
+msgstr "<b> iki šiol: </b>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+msgid ""
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
+"title=\"Arrow\"/>"
+msgstr ""
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_teacher_generate
+msgid "<span class=\"ml-2\">Faculty TimeTable</span>"
+msgstr "<span class=\"Ml-2\"> Fakulteto tvarkaraštis </span>"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_student_generate
+msgid "<span class=\"ml-2\">TimeTable</span>"
+msgstr "<span class=\"Ml-2\"> Timetable </span>"
+
+#. module: fsieducation_timetable
+#: model:mail.template,body_html:fsieducation_timetable.session_details_changes
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-tfsi: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
+"                    <tr>\n"
+"                        <td align=\"center\">\n"
+"                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"                                <tbody>\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\">\n"
+"                                                        <span style=\"font-size: 10px;\">Session Details</span>\n"
+"                                                        <br>\n"
+"                                                    </td>\n"
+"                                                    <td valign=\"middle\" align=\"right\">\n"
+"                                                        <img t-att-src=\"'/logo.png?company=%s' % object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td colspan=\"2\" style=\"text-align:center;\">\n"
+"                                                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"tfsi\" style=\"font-size: 13px;\">\n"
+"                                                        <ul class=\"o_mail_thread_message_tracking\">\n"
+"                                                            <li>\n"
+"                                                                Faculty:\n"
+"                                                                <span>\n"
+"                                                                    <t t-out=\"object.faculty_id.name\"></t>\n"
+"                                                                </span>\n"
+"                                                            </li>\n"
+"                                                            <li>\n"
+"                                                                Subject:\n"
+"                                                                <span>\n"
+"                                                                    <t t-out=\"object.subject_id.name\"></t>\n"
+"                                                                </span>\n"
+"                                                            </li>\n"
+"                                                            <li>\n"
+"                                                                Course:\n"
+"                                                                <span>\n"
+"                                                                    <t t-out=\"object.course_id.name\"></t>\n"
+"                                                                </span>\n"
+"                                                            </li>\n"
+"                                                            <li>\n"
+"                                                                Batch:\n"
+"                                                                <span>\n"
+"                                                                    <t t-out=\"object.batch_id.name\"></t>\n"
+"                                                                </span>\n"
+"                                                            </li>\n"
+"                                                            <li>\n"
+"                                                                Classroom:\n"
+"                                                                <span>\n"
+"                                                                    <t t-out=\"object.classroom_id.name\"></t>\n"
+"                                                                </span>\n"
+"                                                            </li>\n"
+"                                                            <li>\n"
+"                                                                Start Time:\n"
+"                                                                <span>\n"
+"                                                                    <t t-out=\"format_datetime(object.start_datetime, tz=user.tz)\"></t>\n"
+"                                                                </span>\n"
+"                                                            </li>\n"
+"                                                            <li>\n"
+"                                                                End Time:\n"
+"                                                                <span>\n"
+"                                                                    <t t-out=\"format_datetime(object.end_datetime, tz=user.tz)\"></t>\n"
+"                                                                </span>\n"
+"                                                            </li>\n"
+"\n"
+"                                                            <li>\n"
+"                                                                Status:\n"
+"                                                                <t t-if=\"object.state == 'confirm'\">\n"
+"                                                                    <span>Confirmed</span>\n"
+"                                                                </t>\n"
+"                                                                <t t-elif=\"object.state == 'cancel'\">\n"
+"                                                                    <span>Canceled</span>\n"
+"                                                                </t>\n"
+"                                                            </li>\n"
+"                                                        </ul>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td style=\"text-align:center;\">\n"
+"                                                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"left\">\n"
+"                                                        <t t-out=\"object.company_id.name or ''\"></t>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"left\" style=\"fsiacity: 0.7;\">\n"
+"                                                        <t t-out=\"object.company_id.phone or ''\"></t>\n"
+"                                                        <t t-if=\"object.company_id.email\">\n"
+"                                                            |\n"
+"                                                            <a href=\"'mailto:%s'%20%20%7B%7B%20object.company_id.email%20%7D%7D\" style=\"text-decoration:none; color: #454748;\">\n"
+"                                                                <t t-out=\"object.company_id.email or ''\"></t>\n"
+"                                                            </a>\n"
+"                                                        </t>\n"
+"                                                        <t t-if=\"object.company_id.website\">\n"
+"                                                            |\n"
+"                                                            <a href=\"'%s'%20%20%7B%7B%20object.company_id.website%20%7D%7D\" style=\"text-decoration:none; color: #454748;\">\n"
+"                                                                <t t-out=\"object.company_id.website or ''\"></t>\n"
+"                                                            </a>\n"
+"                                                        </t>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                </tbody>\n"
+"                            </table>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </table>\n"
+"            "
+msgstr ""
+"\n"
+"                <Ul class = \"O_Mail_Thread_Message_Tracking\">\n"
+"                    <li>\n"
+"                        Fakultetas:\n"
+"                            <Pan> $ {Object.faculty_id.name} </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        Tema:\n"
+"                            <Pan> $ {Object.subject_id.name} </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        Kursas:\n"
+"                            <Pan> $ {Object.course_id.name} </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        Partija:\n"
+"                            <Pan> $ {Object.batch_id.name} </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        Klasė:\n"
+"                            <Pan> $ {Object.classroom_id.name} </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        Pradžios laikas:\n"
+"                            <Pan> $ {format_dateTime (objektas.start_dateTime, tz = user.tz)} </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        Pabaigos laikas:\n"
+"                            <Pan> $ {format_dateTime (objektas.end_dateTime, tz = user.tz)} </span>\n"
+"                    </li>\n"
+"\n"
+"                    <li>\n"
+"                        Būsena:\n"
+"                            %, jei objektas.state == 'patvirtinti':\n"
+"                                <Pan> Patvirtinta </span>\n"
+"                            % elif objektas.state == 'Atšaukti'\n"
+"                                <Pan> atšauktas </span>\n"
+"                            % Endif\n"
+"                    </li>\n"
+"                </ul>\n"
+"            "
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__am_pm__am
+msgid "AM"
+msgstr "ESU"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__am_pm
+msgid "AM/PM"
+msgstr "RYTO VAKARO"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_needaction
+msgid "Action Needed"
+msgstr "Reikalingas veiksmas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__active
+msgid "Active"
+msgstr "Aktyvus"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Archived"
+msgstr "Archyvuota"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_confirmation_form
+msgid "Are you sure you want to confirm selected sessions ?"
+msgstr "Ar tikrai norite patvirtinti pasirinktas sesijas?"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_attachment_count
+msgid "Attachment Count"
+msgstr "Priedų skaičius"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__batch_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__batch_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__batch_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Batch"
+msgstr "Partija"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_res_config_settings__is_batch_constraint
+msgid "Batch Constraint"
+msgstr "Partijos apribojimas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_res_config_settings__is_batch_and_subject_constraint
+msgid "Batch and Subject Constraint"
+msgstr "Partija ir temos suvaržymas"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__state__cancel
+msgid "Canceled"
+msgstr "Atšauktas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__classroom_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__classroom_id
+msgid "Classroom"
+msgstr "Klasė"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_res_config_settings__is_classroom_constraint
+msgid "Classroom Constraint"
+msgstr "Klasės suvaržymas"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_time_table_report_form
+msgid "Close"
+msgstr "Uždaryti"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__color
+msgid "Color Index"
+msgstr "Spalvų rodyklė"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__company_id
+msgid "Company"
+msgstr "Įmonė"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfigūracijos nustatymai"
+
+#. module: fsieducation_timetable
+#: model:ir.ui.menu,name:fsieducation_timetable.menu_fsi_timetable_config
+msgid "Configuration"
+msgstr "Konfigūracija"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+msgid "Confirm"
+msgstr "Patvirtinti"
+
+#. module: fsieducation_timetable
+#: model:ir.actions.act_window,name:fsieducation_timetable.session_confirmation_form_view_act
+msgid "Confirmation"
+msgstr "Patvirtinimas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__state__confirm
+msgid "Confirmed"
+msgstr "Patvirtinta"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__course_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__course_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__course_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Course"
+msgstr "Kursas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__create_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__create_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__create_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__create_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_session_confirmation__create_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__create_uid
+msgid "Created by"
+msgstr "Sukurta"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__create_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__create_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__create_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__create_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_session_confirmation__create_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__create_date
+msgid "Created on"
+msgstr "Sukurtas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__day
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__type
+msgid "Day"
+msgstr "Diena"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__days
+msgid "Days"
+msgstr "Dienos"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "Delete"
+msgstr "Ištrinti"
+
+#. module: fsieducation_timetable
+#: model:ir.module.category,name:fsieducation_timetable.module_category_all_fsi_discuss
+msgid "Discuss"
+msgstr "Aptarti"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__display_name
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__display_name
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__display_name
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__display_name
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_session_confirmation__display_name
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__display_name
+msgid "Display Name"
+msgstr "Rodomas pavadinimas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__state__done
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+msgid "Done"
+msgstr "padaryta"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__state__draft
+msgid "Draft"
+msgstr "Juodraštis"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__duration
+msgid "Duration"
+msgstr "Trukmė"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "Edit"
+msgstr "Redaguoti"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__end_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__end_date
+msgid "End Date"
+msgstr "Pabaigos data"
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/wizard/time_table_report.py:0
+#, python-format
+msgid "End Date cannot be set before                 Start Date."
+msgstr "Pabaigos data negali būti nustatyta anksčiau nei pradžios data."
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/wizard/generate_timetable.py:0
+#, python-format
+msgid "End Date cannot be set before             Start Date."
+msgstr "Pabaigos data negali būti nustatyta anksčiau nei pradžios data."
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__session_end_time
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__end_datetime
+msgid "End Time"
+msgstr "Pabaigos laikas"
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/models/timetable.py:0
+#, python-format
+msgid "End Time cannot be set before Start Time."
+msgstr "Pabaigos laikas negali būti nustatytas anksčiau nei pradžios laikas."
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__faculty_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__faculty_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__faculty_id
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__time_table_report__state__faculty
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_kanban
+msgid "Faculty"
+msgstr "Fakultetas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_res_config_settings__is_faculty_constraint
+msgid "Faculty Constraint"
+msgstr "Fakulteto suvaržymas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_follower_ids
+msgid "Followers"
+msgstr "Pasekėjai"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Stebėtojai (partneriai)"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__gen_time_table_line__day__4
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__days__friday
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Friday"
+msgstr "Penktadienis"
+
+#. module: fsieducation_timetable
+#: model:ir.actions.act_window,name:fsieducation_timetable.act_fsien_generate_time_table_view
+#: model:ir.model,name:fsieducation_timetable.model_generate_time_table
+msgid "Generate Sessions"
+msgstr "Generuoti sesijas"
+
+#. module: fsieducation_timetable
+#: model:ir.actions.act_window,name:fsieducation_timetable.act_fsien_time_table_report_view
+msgid "Generate Sessions Report"
+msgstr "Generuoti sesijų ataskaitą"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_gen_time_table_line
+msgid "Generate Time Table Lines"
+msgstr "Generuoti laiko lentelės eilutes"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_time_table_report
+msgid "Generate Time Table Report"
+msgstr "Generuoti laiko lentelės ataskaitą"
+
+#. module: fsieducation_timetable
+#: model:ir.ui.menu,name:fsieducation_timetable.menu_generate_time_table
+msgid "Generate Timetable"
+msgstr "Generuoti tvarkaraštį"
+
+#. module: fsieducation_timetable
+#: model:ir.ui.menu,name:fsieducation_timetable.menu_generate_time_table_report
+msgid "Generate Timetable Report"
+msgstr "Generuoti tvarkaraštį"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Group By..."
+msgstr "Grupuoti pagal..."
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__has_message
+msgid "Has Message"
+msgstr "Turi pranešimą"
+
+#. module: fsieducation_timetable
+#: model:ir.module.category,description:fsieducation_timetable.module_category_all_fsi_discuss
+msgid "Helps you manage your institutes different-different users."
+msgstr "Padeda valdyti skirtingus institutus ir skirtingus vartotojus."
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__hour
+msgid "Hours"
+msgstr "Valandos"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_session_confirmation__id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__id
+msgid "ID"
+msgstr "Id"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.res_config_settings_view_form_timetable
+msgid ""
+"If checked you will not allowed to create the session with same classroom on same date\n"
+"                                and time"
+msgstr ""
+"Jei patikrinsite\n"
+"                                Ir laikas"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.res_config_settings_view_form_timetable
+msgid ""
+"If checked you will not allowed to create the session with same faculty on same date\n"
+"                                and time"
+msgstr ""
+"Jei patikrinsite\n"
+"                                Ir laikas"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.res_config_settings_view_form_timetable
+msgid ""
+"If checked you will not allowed to create the session with the same batch and same\n"
+"                                subject on same date and time"
+msgstr ""
+"Jei patikrinsite, jums nebus leista kurti seanso su ta pačia partija ir ta pati\n"
+"                                tema tą pačią dieną ir laiką"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.res_config_settings_view_form_timetable
+msgid ""
+"If checked you will not be allowed to create the session with the same batch even if\n"
+"                                it is for a different subject."
+msgstr ""
+"Jei patikrinsite, jums nebus leista kurti seanso su ta pačia partija, net jei\n"
+"                                Tai skirta kitam dalykui."
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,help:fsieducation_timetable.field_fsi_session__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Jei patikrinsite, nauji pranešimai reikalauja jūsų dėmesio."
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,help:fsieducation_timetable.field_fsi_session__message_has_error
+#: model:ir.model.fields,help:fsieducation_timetable.field_fsi_session__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Jei patikrinta, kai kurie pranešimai turi pristatymo klaidą."
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/models/timetable.py:0
+#, python-format
+msgid "Import Template for Sessions"
+msgstr "Importuoti seansų šabloną"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_is_follower
+msgid "Is Follower"
+msgstr "Yra sekėjas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__write_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__write_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__write_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__write_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_session_confirmation__write_uid
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__write_uid
+msgid "Last Updated by"
+msgstr "Paskutinį kartą atnaujinta"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__write_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__write_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__write_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__write_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_session_confirmation__write_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__write_date
+msgid "Last Updated on"
+msgstr "Paskutinį kartą atnaujinta"
+
+#. module: fsieducation_timetable
+#: model:res.groups,name:fsieducation_timetable.group_fsi_timetable_manager
+msgid "Manager"
+msgstr "Vadovas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_has_error
+msgid "Message Delivery error"
+msgstr "Pranešimo pristatymo klaida"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_ids
+msgid "Messages"
+msgstr "Pranešimai"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__minute
+msgid "Minute"
+msgstr "Minutė"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__gen_time_table_line__day__0
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__days__monday
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Monday"
+msgstr "Pirmadienis"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Month"
+msgstr "Mėnuo"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__name
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__name
+msgid "Name"
+msgstr "vardas"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_confirmation_form
+msgid "No"
+msgstr "Ne"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Veiksmų skaičius"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_has_error_counter
+msgid "Number of errors"
+msgstr "Klaidų skaičius"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,help:fsieducation_timetable.field_fsi_session__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Pranešimų, kuriems reikalingas veiksmas, skaičius"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,help:fsieducation_timetable.field_fsi_session__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Pranešimų su pristatymo klaida skaičius"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_fsi_faculty
+msgid "OpenEduCat Faculty"
+msgstr "Atidaryti fakultetą"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_timing__am_pm__pm
+msgid "PM"
+msgstr "PM"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_fsi_timing
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_student_generate
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.report_timetable_teacher_generate
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_timing_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_timing_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_timing_tree
+msgid "Period"
+msgstr "Laikotarpis"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_time_table_report_form
+msgid "Print"
+msgstr "Spausdinti"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Proceed"
+msgstr "Tęsk"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__rating_ids
+msgid "Ratings"
+msgstr "Įvertinimai"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS pristatymo klaida"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__gen_time_table_line__day__5
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__days__saturday
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Saturday"
+msgstr "Šeštadienis"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__state
+msgid "Select"
+msgstr "Pasirinkite"
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/wizard/time_table_report.py:0
+#, python-format
+msgid "Select date range for a week!"
+msgstr "Pasirinkite savaitės dienų seką!"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_timing__sequence
+msgid "Sequence"
+msgstr "Seka"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+msgid "Session"
+msgstr "Sesija"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_pivot
+msgid "Session Analysis"
+msgstr "Sesijos analizė"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_confirmation_form
+msgid "Session Confirmation"
+msgstr "Sesijos patvirtinimas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_faculty__session_count
+msgid "Session Count"
+msgstr "Sesijos skaičius"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_gen_time_table_line_tree
+msgid "Session Line"
+msgstr "Sesijos eilutė"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+msgid "Session Time"
+msgstr "Sesijos laikas"
+
+#. module: fsieducation_timetable
+#: model:mail.template,name:fsieducation_timetable.session_details_changes
+msgid "Session details - Send by Email"
+msgstr "Sesijos informacija - siųsti el. Paštu"
+
+#. module: fsieducation_timetable
+#: model:ir.actions.act_window,name:fsieducation_timetable.act_fsien_fsi_session_view
+#: model:ir.model,name:fsieducation_timetable.model_fsi_session
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_faculty__session_ids
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_faculty_form_session_inherit
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_calendar
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_tree
+msgid "Sessions"
+msgstr "Sesijos"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_form
+msgid "Set to Draft"
+msgstr "Nustatykite juodraštį"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__start_date
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_time_table_report__start_date
+msgid "Start Date"
+msgstr "Pradžios data"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__session_start_time
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__start_datetime
+msgid "Start Time"
+msgstr "Pradžios laikas"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "State"
+msgstr "Būsena"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__state
+msgid "Status"
+msgstr "Būsena"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__time_table_report__state__student
+msgid "Student"
+msgstr "Studentas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__subject_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__subject_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Subject"
+msgstr "Tema"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__gen_time_table_line__day__6
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__days__sunday
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Sunday"
+msgstr "Sekmadienis"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_gen_time_table_line_form
+msgid "Table Line"
+msgstr "Lentelės eilutė"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__gen_time_table_line__day__3
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__days__thursday
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Thursday"
+msgstr "Ketvirtadienis"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__gen_time_table
+msgid "Time Table"
+msgstr "Laiko lentelė"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines
+msgid "Time Table Lines"
+msgstr "Laiko lentelės eilutės"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines_1
+msgid "Time Table Lines1"
+msgstr "Laiko lentelės eilutės1"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines_2
+msgid "Time Table Lines2"
+msgstr "Laiko lentelės eilutės2"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines_3
+msgid "Time Table Lines3"
+msgstr "Laiko lentelės eilutės3"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines_4
+msgid "Time Table Lines4"
+msgstr "Laiko lentelės eilutės4"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines_5
+msgid "Time Table Lines5"
+msgstr "Laiko lentelės eilutės5"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines_6
+msgid "Time Table Lines6"
+msgstr "Laiko lentelės eilutės6"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_generate_time_table__time_table_lines_7
+msgid "Time Table Lines7"
+msgstr "Laiko lentelės eilutės7"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_time_table_report_form
+msgid "Time Table Report"
+msgstr "Laiko lentelės ataskaita"
+
+#. module: fsieducation_timetable
+#: model:ir.actions.report,name:fsieducation_timetable.report_teacher_timetable_generate
+msgid "TimeTable for Faculties"
+msgstr "Fakultetų tvarkaraštis"
+
+#. module: fsieducation_timetable
+#: model:ir.actions.report,name:fsieducation_timetable.report_student_timetable_generate
+msgid "TimeTable for Students"
+msgstr "Grafikas studentams"
+
+#. module: fsieducation_timetable
+#: model:ir.ui.menu,name:fsieducation_timetable.menu_fsi_timetable_root
+msgid "TimeTables"
+msgstr "Tvarkaraščiai"
+
+#. module: fsieducation_timetable
+#: model:ir.module.category,name:fsieducation_timetable.module_category_fsieducation_timetable
+#: model:ir.ui.menu,name:fsieducation_timetable.menu_fsi_timetable
+msgid "Timetable"
+msgstr "Tvarkaraštis"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_report_fsieducation_timetable_report_timetable_student_generate
+msgid "Timetable Student Report"
+msgstr "Tvarkaraščio studentų ataskaita"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_report_fsieducation_timetable_report_timetable_teacher_generate
+msgid "Timetable Teacher Report"
+msgstr "Tvarkaraščio mokytojo ataskaita"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_gen_time_table_line__timing_id
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__timing
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__timing_id
+msgid "Timing"
+msgstr "Laikas"
+
+#. module: fsieducation_timetable
+#: model:ir.actions.act_window,name:fsieducation_timetable.act_fsien_fsi_timing_view
+msgid "Timings"
+msgstr "Sesijos"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Today"
+msgstr "Šiandien"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__gen_time_table_line__day__1
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__days__tuesday
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Tuesday"
+msgstr "Antradienis"
+
+#. module: fsieducation_timetable
+#: model:res.groups,name:fsieducation_timetable.group_fsi_timetable_user
+msgid "User"
+msgstr "Vartotojas"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__user_ids
+msgid "Users"
+msgstr "Vartotojai"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,field_description:fsieducation_timetable.field_fsi_session__website_message_ids
+msgid "Website Messages"
+msgstr "Svetainės pranešimai"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields,help:fsieducation_timetable.field_fsi_session__website_message_ids
+msgid "Website communication history"
+msgstr "Tinklalapio komunikacijos istorija"
+
+#. module: fsieducation_timetable
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__gen_time_table_line__day__2
+#: model:ir.model.fields.selection,name:fsieducation_timetable.selection__fsi_session__days__wednesday
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_generate_time_table_form
+msgid "Wednesday"
+msgstr "Trečiadienis"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_fsi_session_search
+msgid "Week"
+msgstr "Savaitė"
+
+#. module: fsieducation_timetable
+#: model:ir.model,name:fsieducation_timetable.model_session_confirmation
+msgid "Wizard for Multiple Session Confirmation"
+msgstr "Vedlys kelioms sesijos patvirtinimams"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_confirmation_form
+msgid "Yes"
+msgstr "Taip"
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/models/timetable.py:0
+#, python-format
+msgid ""
+"You cannot create a session for the same batch on same time and for same "
+"subject"
+msgstr ""
+"Negalite sukurti seanso tai pačiai paketai tuo pačiu metu ir tam pačiam laikui"
+"tema"
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/models/timetable.py:0
+#, python-format
+msgid ""
+"You cannot create a session for the same batch on same time even if it is "
+"different subject"
+msgstr ""
+"Negalite sukurti seanso tai pačiai paketai tuo pačiu metu, net jei taip yra"
+"skirtinga tema"
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/models/timetable.py:0
+#, python-format
+msgid "You cannot create a session with same classroom on same date and time"
+msgstr "Negalite sukurti sesijos toje pačioje klasėje tą pačią dieną ir laiku"
+
+#. module: fsieducation_timetable
+#. odoo-python
+#: code:addons/fsieducation_timetable/models/timetable.py:0
+#, python-format
+msgid "You cannot create a session with same faculty on same date and time"
+msgstr "Negalite sukurti sesijos su tuo pačiu fakultetu tą pačią dieną ir laiku"
+
+#. module: fsieducation_timetable
+#: model_terms:ir.ui.view,arch_db:fsieducation_timetable.view_session_confirmation_form
+msgid "or"
+msgstr "arba"
+
+#. module: fsieducation_timetable
+#: model:mail.template,subject:fsieducation_timetable.session_details_changes
+msgid "{{ object.get_subject() }}"
+msgstr "$ {Object.get_subject ()}"

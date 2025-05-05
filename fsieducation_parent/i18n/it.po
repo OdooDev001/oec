@@ -1,0 +1,179 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-16 05:11+0000"
+"PO-Revision-Date:2024-02-16 05:11+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_parent
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.parent_student_form_view
+msgid "<span class=\"o_stat_text\">Parents</span>"
+msgstr "<span class=\"o_stat_text\">Genitori</span>"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__active
+msgid "Active"
+msgstr "Attivo"
+
+#. module: fsieducation_parent
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_search
+msgid "Archived"
+msgstr "Archiviato"
+
+#. module: fsieducation_parent
+#: model:ir.model.constraint,message:fsieducation_parent.constraint_fsi_parent_unique_parent
+msgid "Can not create parent multiple times.!"
+msgstr "Impossibile creare il genitore più volte.!"
+
+#. module: fsieducation_parent
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_form
+msgid "Create Parent User"
+msgstr "Crea utente genitore"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__create_uid
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent_relationship__create_uid
+msgid "Created by"
+msgstr "Creato da"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__create_date
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent_relationship__create_date
+msgid "Created on"
+msgstr "Creato"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__display_name
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent_relationship__display_name
+msgid "Display Name"
+msgstr "Nome da visualizzare"
+
+#. module: fsieducation_parent
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_search
+msgid "Group By..."
+msgstr "Raggruppa per..."
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__id
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent_relationship__id
+msgid "ID"
+msgstr "ID"
+
+#. module: fsieducation_parent
+#. odoo-python
+#: code:addons/fsieducation_parent/models/parent.py:0
+#, python-format
+msgid ""
+"Invalid Action!\n"
+" Parent can not             create Subject Registration!"
+msgstr ""
+"Azione non valida!\n"
+" Il genitore non può creare la registrazione del soggetto!"
+
+#. module: fsieducation_parent
+#. odoo-python
+#: code:addons/fsieducation_parent/models/parent.py:0
+#, python-format
+msgid ""
+"Invalid Action!\n"
+" Parent can not edit             Subject Registration!"
+msgstr ""
+"Azione non valida!\n"
+" Il genitore non può modificare la registrazione del soggetto!"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__write_uid
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent_relationship__write_uid
+msgid "Last Updated by"
+msgstr "Ultimo aggiornamento di"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__write_date
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent_relationship__write_date
+msgid "Last Updated on"
+msgstr "Ultimo aggiornamento il"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__mobile
+msgid "Mobile"
+msgstr "Mobile"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__name
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent_relationship__name
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_search
+msgid "Name"
+msgstr "Nome"
+
+#. module: fsieducation_parent
+#: model:ir.model,name:fsieducation_parent.model_fsi_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_student__parent_ids
+#: model:res.groups,name:fsieducation_parent.group_fsi_parent
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_tree
+msgid "Parent"
+msgstr "Genitore"
+
+#. module: fsieducation_parent
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_form
+msgid "Parent Name"
+msgstr "Nome del genitore"
+
+#. module: fsieducation_parent
+#: model:ir.actions.act_window,name:fsieducation_parent.act_fsien_fsi_parent_view
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_parent_root
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_parent_sub_parent
+msgid "Parents"
+msgstr "Genitori"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__relationship_id
+msgid "Relation with Student"
+msgstr "Rapporto con lo studente"
+
+#. module: fsieducation_parent
+#: model:ir.actions.act_window,name:fsieducation_parent.act_fsien_fsi_parent_relationship_view
+#: model:ir.model,name:fsieducation_parent.model_fsi_parent_relationship
+#: model:ir.ui.menu,name:fsieducation_parent.menu_fsi_parent_relationship_sub_parent
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_parent_relationship_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_parent_relationship_tree
+msgid "Relationships"
+msgstr "Relazioni"
+
+#. module: fsieducation_parent
+#: model:ir.model,name:fsieducation_parent.model_fsi_student
+msgid "Student"
+msgstr "Alunno"
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__student_ids
+#: model_terms:ir.ui.view,arch_db:fsieducation_parent.view_fsi_parent_form
+msgid "Student(s)"
+msgstr "Studenti)"
+
+#. module: fsieducation_parent
+#: model:ir.model,name:fsieducation_parent.model_fsi_subject_registration
+msgid "Subject Registration Details"
+msgstr "Dettagli di registrazione del soggetto"
+
+#. module: fsieducation_parent
+#. odoo-python
+#: code:addons/fsieducation_parent/models/parent.py:0
+#, python-format
+msgid "Update parent email id first."
+msgstr "Aggiorna prima l'ID email del genitore."
+
+#. module: fsieducation_parent
+#: model:ir.model.fields,field_description:fsieducation_parent.field_fsi_parent__user_id
+msgid "User"
+msgstr "Utente"
+

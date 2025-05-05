@@ -1,0 +1,1304 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-16 10:00+0000"
+"PO-Revision-Date:2024-02-16 10:00+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<b>Course:</b>"
+msgstr "<b>Kurs:</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<b>From Date:</b>"
+msgstr "<b>Ab Datum:</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<b>To Date:</b>"
+msgstr "<b>Bis heute:</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid ""
+"<br/>\n"
+"                            <b>Total Number of Students :</b>"
+msgstr ""
+"<br/>\n"
+" <b>Gesamtzahl der Studierenden:</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<strong>Admission Analysis</strong>"
+msgstr "<strong>Zulassungsanalyse</strong>"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_20
+msgid "Abdul"
+msgstr "Abdul"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_20
+msgid "Abdul Hajjar"
+msgstr "Abdul Hajjar"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__academic_years_id
+msgid "Academic Year"
+msgstr "Akademisches Jahr"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_needaction
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_needaction
+msgid "Action Needed"
+msgstr "Handlungsbedarf"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__active
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__active
+msgid "Active"
+msgstr "Aktiv"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_ids
+msgid "Activities"
+msgstr "Aktivitäten"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Aktivitäts-Ausnahmedekoration"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_state
+msgid "Activity State"
+msgstr "Aktivitätsstatus"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Aktivitätstyp-Symbol"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Address"
+msgstr "Adresse"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_fsi_admission
+#: model:ir.module.category,name:fsieducation_admission.module_category_all_fsi_admission
+#: model:ir.module.category,name:fsieducation_admission.module_category_fsieducation_admission
+msgid "Admission"
+msgstr "Zulassung"
+
+#. module: fsieducation_admission
+#: model:ir.actions.report,name:fsieducation_admission.action_report_report_admission_analysis
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.admission_analysis_form
+msgid "Admission Analysis"
+msgstr "Zulassungsanalyse"
+
+#. module: fsieducation_admission
+#: model:ir.actions.act_window,name:fsieducation_admission.admission_analysis_act
+#: model:ir.model,name:fsieducation_admission.model_report_fsieducation_admission_report_admission_analysis
+msgid "Admission Analysis Report"
+msgstr "Zulassungsanalysebericht"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_admission_analysis
+msgid "Admission Analysis Wizard"
+msgstr "Zulassungsanalyse-Assistent"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Admission Confirm"
+msgstr "Einlass bestätigen"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__admission_date
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Admission Date"
+msgstr "Aufnahmedatum"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Admission Detail"
+msgstr "Einzelheiten zur Zulassung"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__admission
+msgid "Admission Process"
+msgstr "Aufnahmeverfahren"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_fsi_admission_register
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__register_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_graph
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_pivot
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_tree
+msgid "Admission Register"
+msgstr "Zulassungsregister"
+
+#. module: fsieducation_admission
+#: model:ir.actions.act_window,name:fsieducation_admission.act_fsien_fsi_admission_register_view
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission_register
+msgid "Admission Registers"
+msgstr "Zulassungsregister"
+
+#. module: fsieducation_admission
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission_analysis
+msgid "Admission Report"
+msgstr "Zulassungsbericht"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__admission_ids
+#: model:ir.ui.menu,name:fsieducation_admission.menu_fsi_admission_root
+#: model:ir.ui.menu,name:fsieducation_admission.menu_fsi_admission_submenu
+msgid "Admissions"
+msgstr "Admissions"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_11
+msgid "Ahmed"
+msgstr "Ahmed"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_11
+msgid "Ahmed Malik"
+msgstr "Ahmed Malik"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_10
+msgid "Alex"
+msgstr "Alex"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_10
+msgid "Alex Johnson"
+msgstr "Alex Johnson"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_13
+msgid "Andrew"
+msgstr "Andreas"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_17
+msgid "Anna"
+msgstr "Anna"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_17
+msgid "Anna Taylor"
+msgstr "Anna Taylor"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__application_date
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Application Date"
+msgstr "Antragsdatum"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid ""
+"Application Date should be between Start Date &                     End Date"
+" of Admission Register."
+msgstr ""
+"Das Bewerbungsdatum sollte zwischen dem Startdatum und dem Enddatum des "
+"Zulassungsregisters liegen."
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__application
+msgid "Application Gathering"
+msgstr "Bewerbungssammlung"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "Application No."
+msgstr "Bewerbungsnr."
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__application_number
+msgid "Application Number"
+msgstr "Anmeldenummer"
+
+#. module: fsieducation_admission
+#: model:ir.model.constraint,message:fsieducation_admission.constraint_fsi_admission_unique_application_number
+msgid "Application Number must be unique per Application!"
+msgstr "Die Bewerbungsnummer muss pro Bewerbung eindeutig sein!"
+
+#. module: fsieducation_admission
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Applications"
+msgstr "Anwendungen"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Archived"
+msgstr "Archiviert"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_attachment_count
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_attachment_count
+msgid "Attachment Count"
+msgstr "Anzahl der Anhänge"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__batch_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Batch"
+msgstr "Charge"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__birth_date
+msgid "Birth Date"
+msgstr "Geburtsdatum"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Birth Date can't be greater than current date!"
+msgstr "Das Geburtsdatum darf nicht nach dem aktuellen Datum liegen!"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_9
+msgid "Brown"
+msgstr "Braun"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.admission_analysis_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Cancel"
+msgstr "Stornieren"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__cancel
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__cancel
+msgid "Cancelled"
+msgstr "Abgesagt"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_2
+msgid "Carter"
+msgstr "Fuhrmann"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_24
+msgid "Charles"
+msgstr "Charles"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_24
+msgid "Charles Miller"
+msgstr "Charles Miller"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__city
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "City"
+msgstr "Stadt"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__company_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__company_id
+msgid "Company"
+msgstr "Unternehmen"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__confirm
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__confirm
+msgid "Confirmed"
+msgstr "Bestätigt"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__country_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Country"
+msgstr "Land"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__course_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__course_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__course_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Course"
+msgstr "Kurs"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_graph
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_pivot
+msgid "Course By Admission"
+msgstr "Kurs nach Zulassung"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_registration_graph
+msgid "Course By Admission Register"
+msgstr "Kurs durch Zulassungsregister"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__product_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_student_course__product_id
+msgid "Course Fees"
+msgstr "Kursgebühren"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__create_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__create_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__create_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__create_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_1
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_4
+msgid "Dani"
+msgstr "Dani"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_8
+msgid "David"
+msgstr "David"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_8
+msgid "David A Smith"
+msgstr "David A. Smith"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__discount
+msgid "Discount (%)"
+msgstr "Rabatt (%)"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__display_name
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__display_name
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__done
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__done
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Done"
+msgstr "Erledigt"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__draft
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__draft
+msgid "Draft"
+msgstr "Entwurf"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__due_date
+msgid "Due Date"
+msgstr "Fälligkeitsdatum"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Educational Detail"
+msgstr "Bildungsdetail"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__email
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Email"
+msgstr "Email"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__end_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__end_date
+msgid "End Date"
+msgstr "Endtermin"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission_register.py:0
+#: code:addons/fsieducation_admission/wizard/admission_analysis_wizard.py:0
+#, python-format
+msgid "End Date cannot be set before Start Date."
+msgstr "Das Enddatum kann nicht vor dem Startdatum festgelegt werden."
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Enroll"
+msgstr "Einschreiben"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Enrolled"
+msgstr "Eingeschrieben"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_9
+msgid "Eric"
+msgstr "Erik"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_9
+msgid "Eric A Brown"
+msgstr "Eric A. Brown"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__family_business
+msgid "Family Business"
+msgstr "Familienbetrieb"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__family_income
+msgid "Family Income"
+msgstr "Familieneinkommen"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+msgid "Fees"
+msgstr "Gebühren"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__fees_start_date
+msgid "Fees Start Date"
+msgstr "Beginndatum der Gebühren"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__fees_term_id
+msgid "Fees Term"
+msgstr "Gebührenlaufzeit"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__gender__f
+msgid "Female"
+msgstr "Weiblich"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__first_name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "First Name"
+msgstr "Vorname"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_15
+msgid "Flynn"
+msgstr "Flynn"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_follower_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_follower_ids
+msgid "Followers"
+msgstr "Anhänger"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_partner_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Follower (Partner)"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Fantastisches Schriftartensymbol, z. B. Fett-Aufgaben"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__gender
+msgid "Gender"
+msgstr "Geschlecht"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Group By..."
+msgstr "Gruppiere nach..."
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_20
+msgid "Hajjar"
+msgstr "Hajjar"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__has_message
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__has_message
+msgid "Has Message"
+msgstr "Hat Nachricht"
+
+#. module: fsieducation_admission
+#: model:ir.module.category,description:fsieducation_admission.module_category_all_fsi_admission
+#: model:ir.module.category,description:fsieducation_admission.module_category_fsieducation_admission
+msgid "Helps you manage your institutes different-different users."
+msgstr ""
+"Hilft Ihnen, die unterschiedlichen Benutzer Ihrer Institute zu verwalten."
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__id
+msgid "ID"
+msgstr "AUSWEIS"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_exception_icon
+msgid "Icon"
+msgstr "Symbol"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Symbol zur Anzeige einer Ausnahmeaktivität."
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_needaction
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+"Wenn diese Option aktiviert ist, erfordern neue Nachrichten Ihre "
+"Aufmerksamkeit."
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_has_error
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_has_sms_error
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_has_error
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+"Wenn diese Option aktiviert ist, liegt bei einigen Nachrichten ein "
+"Zustellungsfehler vor."
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Import Template for Admission"
+msgstr "Importvorlage für die Zulassung"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__is_student
+msgid "Is Already Student"
+msgstr "Ist bereits Student"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_is_follower
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_is_follower
+msgid "Is Follower"
+msgstr "Ist Follower"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_6
+msgid "Jack"
+msgstr "Jack"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_6
+msgid "Jack S Peeters"
+msgstr "Jack S. Peeters"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_22
+msgid "Jacobs"
+msgstr "Jacobs"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_12
+msgid "James"
+msgstr "James"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_12
+msgid "James Wilson"
+msgstr "James Wilson"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_10
+msgid "Johnson"
+msgstr "Johnson"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_16
+msgid "Jones"
+msgstr "Jones"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_25
+msgid "Kate"
+msgstr "Kate"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_25
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_25
+msgid "Kate Anderson"
+msgstr "Kate Anderson"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__last_name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Last Name"
+msgstr "Familienname, Nachname"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__write_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__write_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__write_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__write_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_13
+msgid "Lily"
+msgstr "Lilie"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_13
+msgid "Lily Andrew"
+msgstr "Lily Andrew"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_5
+msgid "Lukas"
+msgstr "Lukas"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_5
+msgid "Lukas Simon"
+msgstr "Lukas Simon"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__gender__m
+msgid "Male"
+msgstr "Männlich"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_11
+msgid "Malik"
+msgstr "Malik"
+
+#. module: fsieducation_admission
+#: model:res.groups,name:fsieducation_admission.group_fsi_admission_admin
+msgid "Manager"
+msgstr "Manager"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_23
+msgid "Maria"
+msgstr "Maria"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_23
+msgid "Maria J Swartz"
+msgstr "Maria J. Swartz"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_2
+msgid "Mark"
+msgstr "Markieren"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_2
+msgid "Mark R Carter"
+msgstr "Mark R. Carter"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_18
+msgid "Martin"
+msgstr "Martin"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__max_count
+msgid "Maximum No. of Admission"
+msgstr "Maximale Zulassungszahl"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_has_error
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_has_error
+msgid "Message Delivery error"
+msgstr "Fehler bei der Nachrichtenzustellung"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_ids
+msgid "Messages"
+msgstr "Mitteilungen"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_4
+msgid "Michael"
+msgstr "Michael"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_4
+msgid "Michael S Dani"
+msgstr "Michael S Dani"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__middle_name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Middle Name"
+msgstr "Zweiter Vorname"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_24
+msgid "Miller"
+msgstr "Müller"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission_register.py:0
+#, python-format
+msgid "Min Admission can't be greater than Max Admission"
+msgstr "Der Mindesteintritt darf nicht größer sein als der Höchsteintritt"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__min_count
+msgid "Minimum No. of Admission"
+msgstr "Mindestzulassungszahl"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__minimum_age_criteria
+msgid "Minimum Required Age(Years)"
+msgstr "Erforderliches Mindestalter (Jahre)"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_3
+msgid "Mitzi"
+msgstr "Mitzi"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_3
+msgid "Mitzi R Russell"
+msgstr "Mitzi R Russell"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__mobile
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Mobile"
+msgstr "Handy, Mobiltelefon"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_7
+msgid "Moore"
+msgstr "Moore"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Meine Aktivitätsfrist"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__name
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Name"
+msgstr "Name"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Nächstes Aktivitätskalenderereignis"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Frist für die nächste Aktivität"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_summary
+msgid "Next Activity Summary"
+msgstr "Zusammenfassung der nächsten Aktivität"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_type_id
+msgid "Next Activity Type"
+msgstr "Nächster Aktivitätstyp"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__nbr
+msgid "No of Admission"
+msgstr "Anzahl der Zulassungen"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission_register.py:0
+#, python-format
+msgid "No of Admission should be positive!"
+msgstr "Die Zulassungszahl sollte positiv sein!"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_16
+msgid "Nora"
+msgstr "Nora"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_16
+msgid "Nora R Jones"
+msgstr "Nora R. Jones"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Not Eligible for Admission minimum required age is : %s "
+msgstr "Das Mindestalter für Nichtzulassungsberechtigte beträgt: %s"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_needaction_counter
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Anzahl der Aktionen"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_has_error_counter
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_has_error_counter
+msgid "Number of errors"
+msgstr "Anzahl der Fehler"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_needaction_counter
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Anzahl der Nachrichten, die Maßnahmen erfordern"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_has_error_counter
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Anzahl der Nachrichten mit Zustellungsfehlern"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Open Student Profile"
+msgstr "Öffnen Sie das Studentenprofil"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__gender__o
+msgid "Other"
+msgstr "Andere"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__partner_id
+msgid "Partner"
+msgstr "Partner"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_19
+msgid "Patrick"
+msgstr "Patrick"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_19
+msgid "Patrick Richard"
+msgstr "Patrick Richard"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_21
+msgid "Paul"
+msgstr "Paul"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_21
+msgid "Paul M Scott"
+msgstr "Paul M. Scott"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_6
+msgid "Peeters"
+msgstr "Peeters"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__pending
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Pending"
+msgstr "Ausstehend"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Personal Detail"
+msgstr "Persönliches Detail"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__phone
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Phone"
+msgstr "Telefon"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Please fill in the mobile number"
+msgstr "Bitte geben Sie die Handynummer ein"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__prev_course_id
+msgid "Previous Course"
+msgstr "Vorheriger Kurs"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__prev_institute_id
+msgid "Previous Institute"
+msgstr "Vorheriges Institut"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__prev_result
+msgid "Previous Result"
+msgstr "Vorheriges Ergebnis"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.admission_analysis_form
+msgid "Print"
+msgstr "Drucken"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__rating_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__rating_ids
+msgid "Ratings"
+msgstr "Bewertungen"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Register"
+msgstr "Registrieren"
+
+#. module: fsieducation_admission
+#: model:ir.actions.act_window,name:fsieducation_admission.act_fsien_fsi_admission_view
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_tree
+msgid "Registration"
+msgstr "Anmeldung"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Reject"
+msgstr "Ablehnen"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__reject
+msgid "Rejected"
+msgstr "Abgelehnt"
+
+#. module: fsieducation_admission
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission_report_root
+msgid "Reports"
+msgstr "Berichte"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_user_id
+msgid "Responsible User"
+msgstr "Verantwortlicher Benutzer"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_19
+msgid "Richard"
+msgstr "Richard"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_14
+msgid "Robert"
+msgstr "Robert"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_14
+msgid "Robert M Stevens"
+msgstr "Robert M. Stevens"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_7
+msgid "Ruby"
+msgstr "Rubin"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_7
+msgid "Ruby J Moore"
+msgstr "Ruby J. Moore"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_3
+msgid "Russell"
+msgstr "Russell"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_has_sms_error
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Fehler bei der SMS-Zustellung"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_1
+msgid "Sara"
+msgstr "Sara"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_1
+msgid "Sara S Dani"
+msgstr "Sarah S Dani"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_21
+msgid "Scott"
+msgstr "Scott"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Set to Draft"
+msgstr "Auf Entwurf einstellen"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_5
+msgid "Simon"
+msgstr "Simon"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_8
+msgid "Smith"
+msgstr "Schmied"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_18
+msgid "Sfsihia"
+msgstr "Sfsihia"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_18
+msgid "Sfsihia Martin"
+msgstr "Sfsihia Martin"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Start Admission"
+msgstr "Einlass starten"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Start Application"
+msgstr "Anwendung starten"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__start_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__start_date
+msgid "Start Date"
+msgstr "Startdatum"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__state
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "State"
+msgstr "Zustand"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__state_id
+msgid "States"
+msgstr "Zustände"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__state
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Status"
+msgstr "Status"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Status basierend auf Aktivitäten\n"
+"Überfällig: Fälligkeitsdatum ist bereits überschritten\n"
+"Heute: Aktivitätsdatum ist heute\n"
+"Geplant: Zukünftige Aktivitäten."
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_14
+msgid "Stevens"
+msgstr "Stevens"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__street
+msgid "Street"
+msgstr "Straße"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Street 2..."
+msgstr "Straße Nummer 2..."
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Street..."
+msgstr "Straße..."
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__street2
+msgid "Street2"
+msgstr "Straße Nummer 2"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__student_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Student"
+msgstr "Student"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_fsi_student_course
+msgid "Student Course Details"
+msgstr "Details zum Studentenkurs"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "Student Name"
+msgstr "Name des Studenten"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Submit"
+msgstr "Einreichen"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__submit
+msgid "Submitted"
+msgstr "Eingereicht"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_23
+msgid "Swartz"
+msgstr "Swartz"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_17
+msgid "Taylor"
+msgstr "Taylor"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__academic_term_id
+msgid "Terms"
+msgstr "Bedingungen"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "The value of the deposit amount must be positive."
+msgstr "Der Wert des Einzahlungsbetrags muss positiv sein."
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid ""
+"There is no income account defined for this product: \"%s\"."
+"                    You may have to install a chart of account from "
+"Accounting                    app, settings menu."
+msgstr ""
+"Für dieses Produkt ist kein Einkommenskonto definiert: „%s“. Möglicherweise "
+"müssen Sie einen Kontenplan über das Einstellungsmenü der Buchhaltungs-App "
+"installieren."
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_15
+msgid "Thomas"
+msgstr "Thomas"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_15
+msgid "Thomas B Flynn"
+msgstr "Thomas B. Flynn"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__title
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Title"
+msgstr "Titel"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Typ der erfassten Ausnahmeaktivität."
+
+#. module: fsieducation_admission
+#: model:res.groups,name:fsieducation_admission.group_fsi_admission_user
+msgid "User"
+msgstr "Benutzer"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_22
+msgid "Victor"
+msgstr "Sieger"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_22
+msgid "Victor A Jacobs"
+msgstr "Victor A. Jacobs"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__website_message_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__website_message_ids
+msgid "Website Messages"
+msgstr "Website-Nachrichten"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__website_message_ids
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__website_message_ids
+msgid "Website communication history"
+msgstr "Kommunikationsverlauf der Website"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_12
+msgid "Wilson"
+msgstr "Wilson"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "ZIP"
+msgstr "REISSVERSCHLUSS"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__zip
+msgid "Zip"
+msgstr "Reißverschluss"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__image
+msgid "image"
+msgstr "Bild"
+

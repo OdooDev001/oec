@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsieducation_core.fsi_course_1" model="fsi.course">
+            <field name="fees_term_id" ref="fsi_fees_term_1"/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_2" model="fsi.course">
+            <field name="fees_term_id" ref="fsi_fees_term_1"/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_3" model="fsi.course">
+            <field name="fees_term_id" ref="fsi_fees_term_1"/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_4" model="fsi.course">
+            <field name="fees_term_id" ref="fsi_fees_term_2"/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_5" model="fsi.course">
+            <field name="fees_term_id" ref="fsi_fees_term_3"/>
+        </record>
+
+        <record id="fsieducation_core.fsi_course_6" model="fsi.course">
+            <field name="fees_term_id" ref="fsi_fees_term_3"/>
+        </record>
+    </data>
+</odoo>

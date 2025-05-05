@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_fsi_faculty_root"
+                  name="Faculties"
+                  sequence="250"
+                  web_icon="fsieducation_core,static/description/icon_faculty.png"/>
+
+        <menuitem id="menu_fsi_faculty_details"
+                  name="Profile"
+                  parent="fsieducation_core.menu_fsi_faculty_root"
+                  sequence="20"
+                  action="act_open_fsi_faculty_view_2"
+                  groups="fsieducation_core.group_fsi_faculty"/>
+
+    </data>
+</odoo>

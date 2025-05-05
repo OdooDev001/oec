@@ -1,0 +1,276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fsieducationerptranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-29 11:02+0000\n"
+"PO-Revision-Date: 2018-03-20 07:19-0400\n"
+"Last-Translator: akkicode <aakash@fsieducation.org>\n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: fsieducationerptranslation\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /master/fsieducation_attendance/i18n/fsieducation_attendance.pot\n"
+"Language: vi_VN\n"
+
+#. module: fsieducation_attendance
+#: view:fsi.all.student:fsieducation_attendance.fsi_all_student_form
+msgid "Add Absent Student(s)"
+msgstr "Thêm vắng mặt Student(s)"
+
+#. module: fsieducation_attendance
+#: view:fsi.all.student:fsieducation_attendance.fsi_all_student_form
+#: field:fsi.all.student,student_ids:0
+msgid "Add Student(s)"
+msgstr "Thêm Student(s)"
+
+#. module: fsieducation_attendance
+#: model:ir.actions.act_window,name:fsieducation_attendance.fsi_all_student_act
+msgid "Attandance Sheet Import"
+msgstr "Attandance tờ nhập khẩu"
+
+#. module: fsieducation_attendance
+#: model:ir.ui.menu,name:fsieducation_attendance.menu_fsi_attendance_main
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_search
+#: field:fsi.attendance.line,attendance_id:0
+msgid "Attendance"
+msgstr "Lượng khán giả"
+
+#. module: fsieducation_attendance
+#: model:ir.actions.act_window,name:fsieducation_attendance.act_fsien_fsi_attendance_line_view
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_form
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_search
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_tree
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_form
+#: field:fsi.attendance.sheet,attendance_line:0
+msgid "Attendance Line"
+msgstr "Lượng khán giả dòng"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_form
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_search
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_tree
+msgid "Attendance Register"
+msgstr "Đăng ký tham dự"
+
+#. module: fsieducation_attendance
+#: model:ir.actions.act_window,name:fsieducation_attendance.act_fsien_fsi_attendance_register_view
+#: model:ir.ui.menu,name:fsieducation_attendance.menu_fsi_attendance_register_sub
+#: model:ir.ui.menu,name:fsieducation_attendance.menu_fsi_attendance_register_sub_faculty
+msgid "Attendance Registers"
+msgstr "Đăng ký tham dự"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_form
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_search
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_tree
+msgid "Attendance Sheet"
+msgstr "Lượng khán giả tờ"
+
+#. module: fsieducation_attendance
+#: model:ir.actions.act_window,name:fsieducation_attendance.act_fsien_fsi_attendance_sheet_view
+#: model:ir.ui.menu,name:fsieducation_attendance.menu_fsi_attendance_sheet_sub
+#: model:ir.ui.menu,name:fsieducation_attendance.menu_fsi_attendance_sheet_sub_faculty
+msgid "Attendance Sheets"
+msgstr "Lượng khán giả tờ"
+
+#. module: fsieducation_attendance
+#: model:ir.ui.menu,name:fsieducation_attendance.menu_fsi_attendance_line_sub
+msgid "Attendance lines"
+msgstr "Lượng khán giả dòng"
+
+#. module: fsieducation_attendance
+#: field:fsi.all.student,batch_id:0
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_search
+#: field:fsi.attendance.line,batch_id:0
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_search
+#: field:fsi.attendance.register,batch_id:0
+msgid "Batch"
+msgstr "Hàng loạt"
+
+#. module: fsieducation_attendance
+#: view:student.attendance:fsieducation_attendance.student_attendance_form
+msgid "Close"
+msgstr "Đóng"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_search
+#: field:fsi.attendance.register,code:0
+msgid "Code"
+msgstr "Mã số"
+
+#. module: fsieducation_attendance
+#: view:fsi.all.student:fsieducation_attendance.fsi_all_student_form
+msgid "Confirm Student Selection"
+msgstr "Xác nhận cho sinh viên lựa chọn"
+
+#. module: fsieducation_attendance
+#: field:fsi.all.student,course_id:0
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_search
+#: field:fsi.attendance.line,course_id:0
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_search
+#: field:fsi.attendance.register,course_id:0
+msgid "Course"
+msgstr "Khóa học"
+
+#. module: fsieducation_attendance
+#: field:fsi.all.student,create_uid:0
+#: field:fsi.attendance.line,create_uid:0
+#: field:fsi.attendance.register,create_uid:0
+#: field:fsi.attendance.sheet,create_uid:0
+#: field:student.attendance,create_uid:0
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: fsieducation_attendance
+#: field:fsi.all.student,create_date:0
+#: field:fsi.attendance.line,create_date:0
+#: field:fsi.attendance.register,create_date:0
+#: field:fsi.attendance.sheet,create_date:0
+#: field:student.attendance,create_date:0
+msgid "Created on"
+msgstr "Tạo ngày"
+
+#. module: fsieducation_attendance
+#: field:fsi.attendance.line,attendance_date:0
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_search
+#: field:fsi.attendance.sheet,attendance_date:0
+#: view:website:fsieducation_attendance.student_attendance_report
+msgid "Date"
+msgstr "Ngày"
+
+#. module: fsieducation_attendance
+#: field:fsi.attendance.sheet,faculty_id:0
+msgid "Faculty"
+msgstr "Giảng viên"
+
+#. module: fsieducation_attendance
+#: field:student.attendance,from_date:0
+msgid "From Date"
+msgstr "Từ ngày"
+
+#. module: fsieducation_attendance
+#: view:website:fsieducation_attendance.student_attendance_report
+msgid "From Date:"
+msgstr "Từ ngày:"
+
+#. module: fsieducation_attendance
+#: model:ir.actions.report.xml,name:fsieducation_attendance.action_report_student_attendance
+msgid "Generate Attendance"
+msgstr "Tạo ra lượng khán giả"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_search
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_search
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_search
+msgid "Group By..."
+msgstr "Nhóm theo..."
+
+#. module: fsieducation_attendance
+#: field:fsi.all.student,id:0
+#: field:fsi.attendance.line,id:0
+#: field:fsi.attendance.register,id:0
+#: field:fsi.attendance.sheet,id:0
+#: field:report.fsieducation_attendance.student_attendance_report,id:0
+#: field:student.attendance,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: fsieducation_attendance
+#: field:fsi.all.student,write_uid:0
+#: field:fsi.attendance.line,write_uid:0
+#: field:fsi.attendance.register,write_uid:0
+#: field:fsi.attendance.sheet,write_uid:0
+#: field:student.attendance,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập Nhật lần cuối bởi"
+
+#. module: fsieducation_attendance
+#: field:fsi.all.student,write_date:0
+#: field:fsi.attendance.line,write_date:0
+#: field:fsi.attendance.register,write_date:0
+#: field:fsi.attendance.sheet,write_date:0
+#: field:student.attendance,write_date:0
+msgid "Last Updated on"
+msgstr "Lần cập nhật cuối"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.register:fsieducation_attendance.view_fsi_attendance_register_search
+#: field:fsi.attendance.register,name:0
+#: field:fsi.attendance.sheet,name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_search
+#: field:fsi.attendance.line,present:0
+msgid "Present ?"
+msgstr "Hiện nay?"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_search
+#: field:fsi.attendance.sheet,register_id:0
+msgid "Register"
+msgstr "Đăng ký"
+
+#. module: fsieducation_attendance
+#: field:fsi.attendance.line,remark:0
+#: view:website:fsieducation_attendance.student_attendance_report
+msgid "Remark"
+msgstr "Nhận xét"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.line:fsieducation_attendance.view_fsi_attendance_line_search
+#: field:fsi.attendance.line,student_id:0
+msgid "Student"
+msgstr "Sinh viên"
+
+#. module: fsieducation_attendance
+#: model:ir.actions.act_window,name:fsieducation_attendance.student_attendance_act
+#: view:student.attendance:fsieducation_attendance.student_attendance_form
+msgid "Student Attendance"
+msgstr "Sinh viên tham dự"
+
+#. module: fsieducation_attendance
+#: view:website:fsieducation_attendance.student_attendance_report
+msgid "Student Attendance Detail"
+msgstr "Học sinh tham gia học chi tiết"
+
+#. module: fsieducation_attendance
+#: view:student.attendance:fsieducation_attendance.student_attendance_form
+msgid "Student Attendance Report Between These Dates"
+msgstr "Học sinh tham gia báo cáo giữa những ngày này"
+
+#. module: fsieducation_attendance
+#: view:website:fsieducation_attendance.student_attendance_report
+msgid "Student Name :"
+msgstr "Tên học sinh:"
+
+#. module: fsieducation_attendance
+#: view:fsi.attendance.sheet:fsieducation_attendance.view_fsi_attendance_sheet_form
+msgid "Students"
+msgstr "Sinh viên"
+
+#. module: fsieducation_attendance
+#: field:fsi.attendance.register,subject_id:0
+msgid "Subject"
+msgstr "Chủ đề"
+
+#. module: fsieducation_attendance
+#: field:student.attendance,to_date:0
+msgid "To Date"
+msgstr "Cho đến nay"
+
+#. module: fsieducation_attendance
+#: view:website:fsieducation_attendance.student_attendance_report
+msgid "To Date:"
+msgstr "Đến ngày:"
+
+#. module: fsieducation_attendance
+#: view:website:fsieducation_attendance.student_attendance_report
+msgid "Total Absence"
+msgstr "Tổng số vắng mặt"
+

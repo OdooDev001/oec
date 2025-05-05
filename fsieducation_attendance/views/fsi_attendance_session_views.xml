@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="attendance_session_form_view" model="ir.ui.view">
+        <field name="name">fsi.attendance.sheet.form.inherit</field>
+        <field name="model">fsi.session</field>
+        <field name="inherit_id" ref="fsieducation_timetable.view_fsi_session_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside">
+               <button class="btn oe_stat_button" type="object"
+                                    name="get_attendance" string="Attendance Sheet"
+                                    style="border-right: 1px solid;"
+                                    icon="fa-book"
+                                    groups="fsieducation_attendance.group_fsi_attendance_manager,fsieducation_attendance.group_fsi_attendance_user"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

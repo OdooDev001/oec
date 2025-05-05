@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_fsieducation_admission" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherited.fsieducation.admission</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="40"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="fsieducation_admission" string="FSI Education Admission"
+                     name="fsieducation_admission"
+                     groups="fsieducation_core.group_fsi_back_office_admin"
+                     id="fsieducation_admission_setting">
+                    <h2 id="fsieducation_admission_apps">Admission</h2>
+                    <div class="row mt16 o_settings_container"
+                         title="Specify different activities which is held in an institute.">
+                        <div class="col-12 col-lg-12 o_setting_box"
+                             title="It is used for admission procedure for the applicant.">
+                            <div class="o_setting_left_pane">
+                                <field name="module_fsieducation_admission"/>
+                            </div>
+                            <div class="o_setting_right_pane">
+                                <label for="module_fsieducation_admission"/>
+                                <a href="https://doc.fsieducation.org/applications/enrollment/enrollment-admission-register.html#admission-registers"
+                                   title="Documentation" class="o_doc_link"
+                                   target="_blank"/>
+                                <div class="text-muted">It facilitates the applicant admission process.
+                                </div>
+                                <div class="content-group"
+                                     invisible="module_fsieducation_admission == False">
+                                    <div class="row mt16">
+                                        <div class="col-12 col-md-6 col-lg-6 mb16">
+                                            <div class="o_setting_left_pane">
+                                                <field name="module_fsieducation_admission_enterprise"/>
+                                            </div>
+                                            <div class="o_setting_right_pane">
+                                                <label for="module_fsieducation_admission_enterprise"/>
+                                                <div class="text-muted">Manage
+                                                    Students Admission
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6 mb16">
+                                            <div class="o_setting_left_pane">
+                                                <field name="module_fsieducation_mass_subject_registration"/>
+                                            </div>
+                                            <div class="o_setting_right_pane">
+                                                <label for="module_fsieducation_mass_subject_registration"/>
+                                                <div class="text-muted">Manage
+                                                    Students can Add Multiple
+                                                    Subjects
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6 mb16">
+                                            <div class="o_setting_left_pane">
+                                                <field name="module_fsieducation_online_admission"/>
+                                            </div>
+                                            <div class="o_setting_right_pane">
+                                                <label for="module_fsieducation_online_admission"/>
+                                                <div class="text-muted">Manage
+                                                    Streamline and user-friendly
+                                                    online admissions process
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-1 col-lg-6 mb16">
+                                            <div class="o_setting_left_pane">
+                                                <field
+                                                        name="enable_create_student_user"/>
+                                            </div>
+                                            <div class="o_setting_right_pane">
+                                                <label
+                                                        for="enable_create_student_user"/>
+                                                <div class="text-muted">Enable this option to create a student
+                                                    user
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </app>
+            </xpath>
+        </field>
+    </record>
+     <record id="action_admission_settings" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+           <field name="view_id" ref="res_config_settings_view_form_fsieducation_admission"/>
+          <field name="target">inline</field>
+        <field name="context">{'module' : 'fsieducation_admission'}</field>
+    </record>
+</odoo>

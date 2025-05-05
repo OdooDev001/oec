@@ -1,0 +1,165 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-15 09:10+0000"
+"PO-Revision-Date:2024-02-15 09:10+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__active
+msgid "Active"
+msgstr "Активный"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Archived"
+msgstr "В архиве"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__asset_id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__asset_line
+msgid "Asset"
+msgstr "Объект"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Asset Management"
+msgstr "Управление активами"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__batch_id
+msgid "Batch"
+msgstr "Партия"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Capacity"
+msgstr "Емкость"
+
+#. module: fsieducation_classroom
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_school_config_class_room
+msgid "Class Room Management"
+msgstr "Классное руководство"
+
+#. module: fsieducation_classroom
+#: model:ir.actions.act_window,name:fsieducation_classroom.act_fsien_fsi_classroom_view
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_classroom_sub
+msgid "Class Rooms"
+msgstr "Классные комнаты"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_facility_line__classroom_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_tree
+msgid "Classroom"
+msgstr "Класс"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_asset
+msgid "Classroom Assets"
+msgstr "Ресурсы класса"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__code
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__code
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Code"
+msgstr "Код"
+
+#. module: fsieducation_classroom
+#: model:ir.model.constraint,message:fsieducation_classroom.constraint_fsi_classroom_unique_classroom_code
+msgid "Code should be unique per classroom!"
+msgstr "Код должен быть уникальным для каждого класса!"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__course_id
+msgid "Course"
+msgstr "Курс"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_uid
+msgid "Created by"
+msgstr "Сделано"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_date
+msgid "Created on"
+msgstr "Создано на"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__display_name
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__display_name
+msgid "Display Name"
+msgstr "Отображаемое имя"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Facilities"
+msgstr "Удобства"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__facilities
+msgid "Facility Lines"
+msgstr "Линии объектов"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Group By..."
+msgstr "Группа по..."
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__id
+msgid "ID"
+msgstr "ИДЕНТИФИКАТОР"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_uid
+msgid "Last Updated by"
+msgstr "Последнее обновление:"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_date
+msgid "Last Updated on"
+msgstr "Последнее обновление:"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_facility_line
+msgid "Manage Facility Line"
+msgstr "Управление линией объекта"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__name
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Name"
+msgstr "Имя"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__capacity
+msgid "No of Person"
+msgstr "№ человека"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_id
+msgid "Product"
+msgstr "Продукт"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_uom_qty
+msgid "Quantity"
+msgstr "Количество"
+

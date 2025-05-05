@@ -1,0 +1,1297 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-16 10:00+0000"
+"PO-Revision-Date:2024-02-16 10:00+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<b>Course:</b>"
+msgstr "<b>หลักสูตร:</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<b>From Date:</b>"
+msgstr "<b>จากวันที่:</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<b>To Date:</b>"
+msgstr "<b>ถึงวันที่:</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid ""
+"<br/>\n"
+"                            <b>Total Number of Students :</b>"
+msgstr ""
+"<br/>\n"
+" <b>จำนวนนักเรียนทั้งหมด :</b>"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "<strong>Admission Analysis</strong>"
+msgstr "<strong>การวิเคราะห์การรับเข้าเรียน</strong>"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_20
+msgid "Abdul"
+msgstr "อับดุล"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_20
+msgid "Abdul Hajjar"
+msgstr "อับดุล ฮัจญาร์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__academic_years_id
+msgid "Academic Year"
+msgstr "ปีการศึกษา"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_needaction
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_needaction
+msgid "Action Needed"
+msgstr "จำเป็นต้องดำเนินการ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__active
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__active
+msgid "Active"
+msgstr "คล่องแคล่ว"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_ids
+msgid "Activities"
+msgstr "กิจกรรม"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "กิจกรรมตกแต่งข้อยกเว้น"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_state
+msgid "Activity State"
+msgstr "สถานะกิจกรรม"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "ไอคอนประเภทกิจกรรม"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Address"
+msgstr "ที่อยู่"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_fsi_admission
+#: model:ir.module.category,name:fsieducation_admission.module_category_all_fsi_admission
+#: model:ir.module.category,name:fsieducation_admission.module_category_fsieducation_admission
+msgid "Admission"
+msgstr "ค่าเข้าชม"
+
+#. module: fsieducation_admission
+#: model:ir.actions.report,name:fsieducation_admission.action_report_report_admission_analysis
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.admission_analysis_form
+msgid "Admission Analysis"
+msgstr "การวิเคราะห์การรับเข้าเรียน"
+
+#. module: fsieducation_admission
+#: model:ir.actions.act_window,name:fsieducation_admission.admission_analysis_act
+#: model:ir.model,name:fsieducation_admission.model_report_fsieducation_admission_report_admission_analysis
+msgid "Admission Analysis Report"
+msgstr "รายงานการวิเคราะห์การรับเข้าเรียน"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_admission_analysis
+msgid "Admission Analysis Wizard"
+msgstr "ตัวช่วยสร้างการวิเคราะห์การรับเข้าเรียน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Admission Confirm"
+msgstr "ยืนยันการรับเข้าเรียน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__admission_date
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Admission Date"
+msgstr "วันที่รับสมัคร"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Admission Detail"
+msgstr "รายละเอียดการรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__admission
+msgid "Admission Process"
+msgstr "กระบวนการรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_fsi_admission_register
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__register_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_graph
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_pivot
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_tree
+msgid "Admission Register"
+msgstr "ทะเบียนรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.actions.act_window,name:fsieducation_admission.act_fsien_fsi_admission_register_view
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission_register
+msgid "Admission Registers"
+msgstr "ทะเบียนรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission_analysis
+msgid "Admission Report"
+msgstr "รายงานการรับเข้าเรียน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__admission_ids
+#: model:ir.ui.menu,name:fsieducation_admission.menu_fsi_admission_root
+#: model:ir.ui.menu,name:fsieducation_admission.menu_fsi_admission_submenu
+msgid "Admissions"
+msgstr "การรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_11
+msgid "Ahmed"
+msgstr "อาเหม็ด"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_11
+msgid "Ahmed Malik"
+msgstr "อาเหม็ด มาลิก"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_10
+msgid "Alex"
+msgstr "อเล็กซ์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_10
+msgid "Alex Johnson"
+msgstr "อเล็กซ์ จอห์นสัน"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_13
+msgid "Andrew"
+msgstr "แอนดรูว์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_17
+msgid "Anna"
+msgstr "แอนนา"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_17
+msgid "Anna Taylor"
+msgstr "แอนนา เทย์เลอร์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__application_date
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Application Date"
+msgstr "วันรับสมัคร"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid ""
+"Application Date should be between Start Date &                     End Date"
+" of Admission Register."
+msgstr ""
+"วันที่สมัครควรอยู่ระหว่างวันที่เริ่มต้นและวันสิ้นสุดการลงทะเบียนรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__application
+msgid "Application Gathering"
+msgstr "การรวบรวมใบสมัคร"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "Application No."
+msgstr "ใบสมัครเลขที่"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__application_number
+msgid "Application Number"
+msgstr "หมายเลขใบสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.model.constraint,message:fsieducation_admission.constraint_fsi_admission_unique_application_number
+msgid "Application Number must be unique per Application!"
+msgstr "หมายเลขแอปพลิเคชันจะต้องไม่ซ้ำกันต่อแอปพลิเคชัน!"
+
+#. module: fsieducation_admission
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Applications"
+msgstr "การใช้งาน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Archived"
+msgstr "เก็บถาวรแล้ว"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_attachment_count
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_attachment_count
+msgid "Attachment Count"
+msgstr "จำนวนไฟล์แนบ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__batch_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Batch"
+msgstr "แบทช์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__birth_date
+msgid "Birth Date"
+msgstr "วันที่เกิด"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Birth Date can't be greater than current date!"
+msgstr "วันเกิดต้องไม่มากกว่าวันที่ปัจจุบัน!"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_9
+msgid "Brown"
+msgstr "สีน้ำตาล"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.admission_analysis_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__cancel
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__cancel
+msgid "Cancelled"
+msgstr "ยกเลิก"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_2
+msgid "Carter"
+msgstr "คาร์เตอร์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_24
+msgid "Charles"
+msgstr "ชาร์ลส์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_24
+msgid "Charles Miller"
+msgstr "ชาร์ลส มิลเลอร์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__city
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "City"
+msgstr "เมือง"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__company_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__company_id
+msgid "Company"
+msgstr "บริษัท"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__confirm
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__confirm
+msgid "Confirmed"
+msgstr "ยืนยันแล้ว"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__country_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Country"
+msgstr "ประเทศ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__course_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__course_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__course_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Course"
+msgstr "คอร์ส"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_graph
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_pivot
+msgid "Course By Admission"
+msgstr "หลักสูตรตามการรับเข้าเรียน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_registration_graph
+msgid "Course By Admission Register"
+msgstr "หลักสูตรตามการลงทะเบียนรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__product_id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_student_course__product_id
+msgid "Course Fees"
+msgstr "ค่าเล่าเรียน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__create_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__create_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__create_uid
+msgid "Created by"
+msgstr "สร้างโดย"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__create_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__create_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__create_date
+msgid "Created on"
+msgstr "สร้างบน"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_1
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_4
+msgid "Dani"
+msgstr "ดานี่"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_8
+msgid "David"
+msgstr "เดวิด"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_8
+msgid "David A Smith"
+msgstr "เดวิด เอ สมิธ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__discount
+msgid "Discount (%)"
+msgstr "การลดราคา (%)"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__display_name
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__display_name
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__display_name
+msgid "Display Name"
+msgstr "ชื่อที่แสดง"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__done
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__done
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Done"
+msgstr "เสร็จแล้ว"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__draft
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission_register__state__draft
+msgid "Draft"
+msgstr "ร่าง"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__due_date
+msgid "Due Date"
+msgstr "วันครบกำหนด"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Educational Detail"
+msgstr "รายละเอียดการศึกษา"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__email
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Email"
+msgstr "อีเมล"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__end_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__end_date
+msgid "End Date"
+msgstr "วันที่สิ้นสุด"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission_register.py:0
+#: code:addons/fsieducation_admission/wizard/admission_analysis_wizard.py:0
+#, python-format
+msgid "End Date cannot be set before Start Date."
+msgstr "ไม่สามารถกำหนดวันที่สิ้นสุดก่อนวันที่เริ่มต้นได้"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Enroll"
+msgstr "ลงทะเบียน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Enrolled"
+msgstr "ลงทะเบียนแล้ว"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_9
+msgid "Eric"
+msgstr "เอริค"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_9
+msgid "Eric A Brown"
+msgstr "เอริค เอ. บราวน์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__family_business
+msgid "Family Business"
+msgstr "ธุรกิจครอบครัว"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__family_income
+msgid "Family Income"
+msgstr "รายได้ของครอบครัว"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+msgid "Fees"
+msgstr "ค่าธรรมเนียม"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__fees_start_date
+msgid "Fees Start Date"
+msgstr "วันที่เริ่มต้นค่าธรรมเนียม"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__fees_term_id
+msgid "Fees Term"
+msgstr "ระยะเวลาค่าธรรมเนียม"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__gender__f
+msgid "Female"
+msgstr "หญิง"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__first_name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "First Name"
+msgstr "ชื่อจริง"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_15
+msgid "Flynn"
+msgstr "ฟลินน์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_follower_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_follower_ids
+msgid "Followers"
+msgstr "ผู้ติดตาม"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_partner_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ผู้ติดตาม (พันธมิตร)"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "ไอคอนตัวอักษรที่ยอดเยี่ยมเช่น fa-งาน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__gender
+msgid "Gender"
+msgstr "เพศ"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Group By..."
+msgstr "จัดกลุ่มตาม..."
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_20
+msgid "Hajjar"
+msgstr "ฮัจจาร์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__has_message
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__has_message
+msgid "Has Message"
+msgstr "มีข้อความ"
+
+#. module: fsieducation_admission
+#: model:ir.module.category,description:fsieducation_admission.module_category_all_fsi_admission
+#: model:ir.module.category,description:fsieducation_admission.module_category_fsieducation_admission
+msgid "Helps you manage your institutes different-different users."
+msgstr "ช่วยคุณจัดการสถาบันของคุณกับผู้ใช้ที่แตกต่างกัน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__id
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__id
+msgid "ID"
+msgstr "บัตรประจำตัวประชาชน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_exception_icon
+msgid "Icon"
+msgstr "ไอคอน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "ไอคอนเพื่อระบุกิจกรรมข้อยกเว้น"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_needaction
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "หากเลือก ข้อความใหม่จะต้องได้รับการดูแลจากคุณ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_has_error
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_has_sms_error
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_has_error
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "หากเลือก แสดงว่าบางข้อความมีข้อผิดพลาดในการส่ง"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Import Template for Admission"
+msgstr "นำเข้าเทมเพลตสำหรับการรับสมัคร"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__is_student
+msgid "Is Already Student"
+msgstr "เป็นนักศึกษาแล้ว"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_is_follower
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_is_follower
+msgid "Is Follower"
+msgstr "เป็นผู้ตาม"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_6
+msgid "Jack"
+msgstr "แจ็ค"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_6
+msgid "Jack S Peeters"
+msgstr "แจ็ค เอส พีเตอร์ส"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_22
+msgid "Jacobs"
+msgstr "จาคอบส์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_12
+msgid "James"
+msgstr "เจมส์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_12
+msgid "James Wilson"
+msgstr "เจมส์ วิลสัน"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_10
+msgid "Johnson"
+msgstr "จอห์นสัน"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_16
+msgid "Jones"
+msgstr "โจนส์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_25
+msgid "Kate"
+msgstr "เคท"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_25
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_25
+msgid "Kate Anderson"
+msgstr "เคท แอนเดอร์สัน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__last_name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Last Name"
+msgstr "นามสกุล"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__write_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__write_uid
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__write_uid
+msgid "Last Updated by"
+msgstr "อัปเดตล่าสุดโดย"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__write_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__write_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__write_date
+msgid "Last Updated on"
+msgstr "อัปเดตล่าสุดเมื่อ"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_13
+msgid "Lily"
+msgstr "ลิลลี่"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_13
+msgid "Lily Andrew"
+msgstr "ลิลี่ แอนดรูว์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_5
+msgid "Lukas"
+msgstr "ลูคัส"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_5
+msgid "Lukas Simon"
+msgstr "ลูคัส ไซมอน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__gender__m
+msgid "Male"
+msgstr "ชาย"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_11
+msgid "Malik"
+msgstr "มาลิก"
+
+#. module: fsieducation_admission
+#: model:res.groups,name:fsieducation_admission.group_fsi_admission_admin
+msgid "Manager"
+msgstr "ผู้จัดการ"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_23
+msgid "Maria"
+msgstr "มาเรีย"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_23
+msgid "Maria J Swartz"
+msgstr "มาเรีย เจ สวาร์ตซ์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_2
+msgid "Mark"
+msgstr "เครื่องหมาย"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_2
+msgid "Mark R Carter"
+msgstr "มาร์ค อาร์ คาร์เตอร์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_18
+msgid "Martin"
+msgstr "มาร์ติน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__max_count
+msgid "Maximum No. of Admission"
+msgstr "จำนวนการรับเข้าเรียนสูงสุด"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_has_error
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_has_error
+msgid "Message Delivery error"
+msgstr "ข้อผิดพลาดในการส่งข้อความ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_ids
+msgid "Messages"
+msgstr "ข้อความ"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_4
+msgid "Michael"
+msgstr "ไมเคิล"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_4
+msgid "Michael S Dani"
+msgstr "ไมเคิล เอส ดานี"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__middle_name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Middle Name"
+msgstr "ชื่อกลาง"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_24
+msgid "Miller"
+msgstr "มิลเลอร์"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission_register.py:0
+#, python-format
+msgid "Min Admission can't be greater than Max Admission"
+msgstr "ค่าเข้าชมขั้นต่ำต้องไม่มากกว่าค่าเข้าชมสูงสุด"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__min_count
+msgid "Minimum No. of Admission"
+msgstr "จำนวนการรับเข้าเรียนขั้นต่ำ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__minimum_age_criteria
+msgid "Minimum Required Age(Years)"
+msgstr "อายุขั้นต่ำที่ต้องการ(ปี)"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_3
+msgid "Mitzi"
+msgstr "มิทซี่"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_3
+msgid "Mitzi R Russell"
+msgstr "มิทซี่ อาร์. รัสเซล"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__mobile
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Mobile"
+msgstr "มือถือ"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_7
+msgid "Moore"
+msgstr "มัวร์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "กำหนดเวลากิจกรรมของฉัน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__name
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__name
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Name"
+msgstr "ชื่อ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "กิจกรรมปฏิทินกิจกรรมถัดไป"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "กำหนดเวลากิจกรรมถัดไป"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_summary
+msgid "Next Activity Summary"
+msgstr "สรุปกิจกรรมถัดไป"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_type_id
+msgid "Next Activity Type"
+msgstr "ประเภทกิจกรรมถัดไป"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__nbr
+msgid "No of Admission"
+msgstr "ไม่มีการรับเข้าเรียน"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission_register.py:0
+#, python-format
+msgid "No of Admission should be positive!"
+msgstr "จำนวนการรับเข้าเรียนควรเป็นบวก!"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_16
+msgid "Nora"
+msgstr "โนรา"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_16
+msgid "Nora R Jones"
+msgstr "นอรา อาร์ โจนส์"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Not Eligible for Admission minimum required age is : %s "
+msgstr "ไม่มีสิทธิ์เข้าศึกษา อายุขั้นต่ำที่ต้องการคือ : %s"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_needaction_counter
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_needaction_counter
+msgid "Number of Actions"
+msgstr "จำนวนการกระทำ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_has_error_counter
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_has_error_counter
+msgid "Number of errors"
+msgstr "จำนวนข้อผิดพลาด"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_needaction_counter
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "จำนวนข้อความที่ต้องดำเนินการ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__message_has_error_counter
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "จำนวนข้อความที่มีข้อผิดพลาดในการส่ง"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Open Student Profile"
+msgstr "เปิดประวัตินักศึกษา"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__gender__o
+msgid "Other"
+msgstr "อื่น"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__partner_id
+msgid "Partner"
+msgstr "พันธมิตร"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_19
+msgid "Patrick"
+msgstr "แพทริค"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_19
+msgid "Patrick Richard"
+msgstr "แพทริค ริชาร์ด"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_21
+msgid "Paul"
+msgstr "พอล"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_21
+msgid "Paul M Scott"
+msgstr "พอล เอ็ม สกอตต์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_6
+msgid "Peeters"
+msgstr "พีตเตอร์ส"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__pending
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Pending"
+msgstr "รอดำเนินการ"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Personal Detail"
+msgstr "รายละเอียดส่วนบุคคล"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__phone
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Phone"
+msgstr "โทรศัพท์"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "Please fill in the mobile number"
+msgstr "กรุณากรอกหมายเลขโทรศัพท์มือถือ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__prev_course_id
+msgid "Previous Course"
+msgstr "หลักสูตรก่อนหน้า"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__prev_institute_id
+msgid "Previous Institute"
+msgstr "สถาบันก่อนหน้า"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__prev_result
+msgid "Previous Result"
+msgstr "ผลลัพธ์ก่อนหน้า"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.admission_analysis_form
+msgid "Print"
+msgstr "พิมพ์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__rating_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__rating_ids
+msgid "Ratings"
+msgstr "การให้คะแนน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Register"
+msgstr "ลงทะเบียน"
+
+#. module: fsieducation_admission
+#: model:ir.actions.act_window,name:fsieducation_admission.act_fsien_fsi_admission_view
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_tree
+msgid "Registration"
+msgstr "การลงทะเบียน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Reject"
+msgstr "ปฏิเสธ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__reject
+msgid "Rejected"
+msgstr "ถูกปฏิเสธ"
+
+#. module: fsieducation_admission
+#: model:ir.ui.menu,name:fsieducation_admission.menu_admission_report_root
+msgid "Reports"
+msgstr "รายงาน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__activity_user_id
+msgid "Responsible User"
+msgstr "ผู้ใช้ที่มีความรับผิดชอบ"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_19
+msgid "Richard"
+msgstr "ริชาร์ด"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_14
+msgid "Robert"
+msgstr "โรเบิร์ต"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_14
+msgid "Robert M Stevens"
+msgstr "โรเบิร์ต เอ็ม สตีเวนส์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_7
+msgid "Ruby"
+msgstr "ทับทิม"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_7
+msgid "Ruby J Moore"
+msgstr "รูบี้ เจ มัวร์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_3
+msgid "Russell"
+msgstr "รัสเซลล์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__message_has_sms_error
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ข้อผิดพลาดในการส่ง SMS"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_1
+msgid "Sara"
+msgstr "ซาร่า"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_1
+msgid "Sara S Dani"
+msgstr "ซาราห์ เอส ดานี"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_21
+msgid "Scott"
+msgstr "สกอตต์"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Set to Draft"
+msgstr "ตั้งค่าเป็นแบบร่าง"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_5
+msgid "Simon"
+msgstr "ไซม่อน"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_8
+msgid "Smith"
+msgstr "สมิธ"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_18
+msgid "Sfsihia"
+msgstr "โซเฟีย"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_18
+msgid "Sfsihia Martin"
+msgstr "โซเฟีย มาร์ติน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Start Admission"
+msgstr "เริ่มรับสมัคร"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_form
+msgid "Start Application"
+msgstr "เริ่มแอปพลิเคชัน"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_admission_analysis__start_date
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__start_date
+msgid "Start Date"
+msgstr "วันที่เริ่มต้น"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__state
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "State"
+msgstr "สถานะ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__state_id
+msgid "States"
+msgstr "รัฐ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__state
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_register_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_search
+msgid "Status"
+msgstr "สถานะ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"สถานะตามกิจกรรม\n"
+"เกินกำหนด: เลยวันครบกำหนดไปแล้ว\n"
+"วันนี้: วันที่ของกิจกรรมคือวันนี้\n"
+"วางแผนไว้: กิจกรรมในอนาคต"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_14
+msgid "Stevens"
+msgstr "สตีเวนส์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__street
+msgid "Street"
+msgstr "ถนน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Street 2..."
+msgstr "ถนน 2..."
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Street..."
+msgstr "ถนน..."
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__street2
+msgid "Street2"
+msgstr "ถนน2"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__student_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Student"
+msgstr "นักเรียน"
+
+#. module: fsieducation_admission
+#: model:ir.model,name:fsieducation_admission.model_fsi_student_course
+msgid "Student Course Details"
+msgstr "รายละเอียดหลักสูตรนักศึกษา"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.report_admission_analysis
+msgid "Student Name"
+msgstr "ชื่อนักเรียน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Submit"
+msgstr "ส่ง"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields.selection,name:fsieducation_admission.selection__fsi_admission__state__submit
+msgid "Submitted"
+msgstr "ส่ง"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_23
+msgid "Swartz"
+msgstr "สวาร์ตซ์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_17
+msgid "Taylor"
+msgstr "เทย์เลอร์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__academic_term_id
+msgid "Terms"
+msgstr "เงื่อนไข"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid "The value of the deposit amount must be positive."
+msgstr "มูลค่าของจำนวนเงินฝากจะต้องเป็นบวก"
+
+#. module: fsieducation_admission
+#. odoo-python
+#: code:addons/fsieducation_admission/models/admission.py:0
+#, python-format
+msgid ""
+"There is no income account defined for this product: \"%s\"."
+"                    You may have to install a chart of account from "
+"Accounting                    app, settings menu."
+msgstr ""
+"ไม่มีบัญชีรายได้ที่กำหนดไว้สำหรับผลิตภัณฑ์นี้: \"%s\" "
+"คุณอาจต้องติดตั้งผังบัญชีจากแอปการบัญชี เมนูการตั้งค่า"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_15
+msgid "Thomas"
+msgstr "โทมัส"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_15
+msgid "Thomas B Flynn"
+msgstr "โธมัส บี. ฟลินน์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__title
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "Title"
+msgstr "ชื่อ"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "ประเภทของกิจกรรมข้อยกเว้นในเรกคอร์ด"
+
+#. module: fsieducation_admission
+#: model:res.groups,name:fsieducation_admission.group_fsi_admission_user
+msgid "User"
+msgstr "ผู้ใช้"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,first_name:fsieducation_admission.fsi_admission_22
+msgid "Victor"
+msgstr "วิคเตอร์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,name:fsieducation_admission.fsi_admission_22
+msgid "Victor A Jacobs"
+msgstr "วิคเตอร์ เอ จาคอบส์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__website_message_ids
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission_register__website_message_ids
+msgid "Website Messages"
+msgstr "ข้อความเว็บไซต์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission__website_message_ids
+#: model:ir.model.fields,help:fsieducation_admission.field_fsi_admission_register__website_message_ids
+msgid "Website communication history"
+msgstr "ประวัติการสื่อสารเว็บไซต์"
+
+#. module: fsieducation_admission
+#: model:fsi.admission,last_name:fsieducation_admission.fsi_admission_12
+msgid "Wilson"
+msgstr "วิลสัน"
+
+#. module: fsieducation_admission
+#: model_terms:ir.ui.view,arch_db:fsieducation_admission.view_fsi_admission_form
+msgid "ZIP"
+msgstr "รหัสไปรษณีย์"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__zip
+msgid "Zip"
+msgstr "ซิป"
+
+#. module: fsieducation_admission
+#: model:ir.model.fields,field_description:fsieducation_admission.field_fsi_admission__image
+msgid "image"
+msgstr "ภาพ"
+

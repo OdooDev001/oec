@@ -1,0 +1,607 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-16 05:23+0000"
+"PO-Revision-Date:2024-02-16 05:23+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.report_fees_analysis
+msgid "<strong>Fees Detail</strong>"
+msgstr "<strong>Detalhes das taxas</strong>"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_needaction
+msgid "Action Needed"
+msgstr "Ação necessária"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__active
+msgid "Active"
+msgstr "Ativo"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_3_product_template
+msgid "Admission Fees for Course-2"
+msgstr "Taxas de admissão para o Curso-2"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_6_product_template
+msgid "Admission Fees for Course-4"
+msgstr "Taxas de admissão para o Curso-4"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_1_product_template
+msgid "Admission Fees for Course-Sem-1"
+msgstr "Taxas de admissão para Curso-Sem-1"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_2_product_template
+msgid "Admission Fees for G8-AR"
+msgstr "Taxas de admissão para G8-AR"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_4_product_template
+msgid "Admission Fees for PPHD"
+msgstr "Taxas de admissão para PPHD"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fsi_fees_terms__day_type__after
+msgid "After"
+msgstr "Depois"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__after_discount_amount
+msgid "After Discount Amount"
+msgstr "Após valor do desconto"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_search
+msgid "Archived"
+msgstr "Arquivado"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contagem de anexos"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__batch_id
+msgid "Batch"
+msgstr "Lote"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fsi_fees_terms__day_type__before
+msgid "Before"
+msgstr "Antes"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fsi_student_fees_details__state__cancel
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.fees_detail_report_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__company_id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__course_id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__course_id
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fees_detail_report_wizard__fees_filter__course
+msgid "Course"
+msgstr "Curso"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__create_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__create_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__create_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__create_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__create_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__create_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__create_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__create_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__currency_id
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__note
+msgid "Description"
+msgstr "Descrição"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_form
+msgid "Description..."
+msgstr "Descrição..."
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__discount
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__discount
+msgid "Discount (%)"
+msgstr "Desconto (%)"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__display_name
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__display_name
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__display_name
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__display_name
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__display_name
+msgid "Display Name"
+msgstr "Nome de exibição"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fsi_student_fees_details__state__draft
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__due_date
+msgid "Due Date"
+msgstr "Data de vencimento"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__due_days
+msgid "Due Days"
+msgstr "Dias de Vencimento"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__fees_id
+#: model:ir.module.category,name:fsieducation_fees.module_category_all_fsi_fees
+#: model:ir.module.category,name:fsieducation_fees.module_category_fsieducation_fees
+msgid "Fees"
+msgstr "Tarifas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__amount
+msgid "Fees Amount"
+msgstr "Valor das taxas"
+
+#. module: fsieducation_fees
+#: model:ir.ui.menu,name:fsieducation_fees.menu_fsi_fees_analysis_report_main
+msgid "Fees Analysis"
+msgstr "Análise de Taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student__fees_detail_ids
+msgid "Fees Collection Details"
+msgstr "Detalhes de cobrança de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.actions.report,name:fsieducation_fees.action_report_fees_detail_analysis
+msgid "Fees Detail Analysi"
+msgstr "Análise detalhada de taxas"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.fees_detail_report_wizard_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fsi_student_form_fees_inherit
+msgid "Fees Details"
+msgstr "Detalhes das taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student__fees_details_count
+msgid "Fees Details Count"
+msgstr "Contagem de detalhes de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fsi_fees_terms_line
+msgid "Fees Details Line"
+msgstr "Linha de detalhes de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.actions.act_window,name:fsieducation_fees.fees_detail_report_wizard_act
+msgid "Fees Details Report"
+msgstr "Relatório de detalhes de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fsi_fees_element
+msgid "Fees Element for course"
+msgstr "Elemento de taxas do curso"
+
+#. module: fsieducation_fees
+#: model:ir.actions.act_window,name:fsieducation_fees.act_fsi_fees_element_view
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__fees_element_line
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.fsi_fees_element_form_1
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.fsi_fees_element_tree_1
+msgid "Fees Elements"
+msgstr "Elementos de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__fees_factor
+msgid "Fees Factor"
+msgstr "Fator de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__fees_filter
+msgid "Fees Filter"
+msgstr "Filtro de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__fees_line_id
+msgid "Fees Line"
+msgstr "Linha de taxas"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_tree
+msgid "Fees Reminder Terms"
+msgstr "Termos de lembrete de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_report_fsieducation_fees_report_fees_analysis
+msgid "Fees Report"
+msgstr "Relatório de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_course__fees_start_date
+msgid "Fees Start Date"
+msgstr "Data de início das taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_course__fees_term_id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_course__fees_term_id
+msgid "Fees Term"
+msgstr "Prazo de taxas"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_form
+msgid "Fees Term Line"
+msgstr "Linha de Prazo de Taxas"
+
+#. module: fsieducation_fees
+#: model:ir.actions.act_window,name:fsieducation_fees.act_fsien_fees_terms_view
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__fees_terms_line_id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__name
+#: model:ir.ui.menu,name:fsieducation_fees.menu_fees_terms
+msgid "Fees Terms"
+msgstr "Termos de taxas"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fsi_fees_terms
+msgid "Fees Terms For Course"
+msgstr "Termos de taxas do curso"
+
+#. module: fsieducation_fees
+#. odoo-python
+#: code:addons/fsieducation_fees/models/fees_terms.py:0
+#, python-format
+msgid "Fees Terms must be Required!"
+msgstr "Os termos das taxas devem ser obrigatórios!"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_5_product_template
+msgid "Fees for Course-3"
+msgstr "Taxas do Curso-3"
+
+#. module: fsieducation_fees
+#. odoo-python
+#: code:addons/fsieducation_fees/models/fees_terms.py:0
+#, python-format
+msgid "Fees terms must be divided as such sum up in 100%"
+msgstr "Os termos das taxas devem ser divididos como tal, somando 100%"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fsi_fees_terms__fees_terms__fixed_date
+msgid "Fixed Fees of Dates"
+msgstr "Taxas fixas de datas"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fsi_fees_terms__fees_terms__fixed_days
+msgid "Fixed Fees of Days"
+msgstr "Taxas fixas de dias"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (parceiros)"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__has_message
+msgid "Has Message"
+msgstr "Tem mensagem"
+
+#. module: fsieducation_fees
+#: model:ir.module.category,description:fsieducation_fees.module_category_all_fsi_fees
+#: model:ir.module.category,description:fsieducation_fees.module_category_fsieducation_fees
+msgid "Helps you manage your institutes different-different users."
+msgstr ""
+"Ajuda você a gerenciar usuários diferentes e diferentes de seus institutos."
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__id
+msgid "ID"
+msgstr "EU IA"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,help:fsieducation_fees.field_fsi_fees_terms__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Se marcada, novas mensagens requerem sua atenção."
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,help:fsieducation_fees.field_fsi_fees_terms__message_has_error
+#: model:ir.model.fields,help:fsieducation_fees.field_fsi_fees_terms__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se marcada, algumas mensagens apresentam um erro de entrega."
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_form
+msgid "Information"
+msgstr "Informação"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fsi_student_fees_details__state__invoice
+msgid "Invoice Created"
+msgstr "Fatura criada"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__invoice_id
+msgid "Invoice ID"
+msgstr "ID da fatura"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__invoice_state
+msgid "Invoice Status"
+msgstr "Status da fatura"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fsi_student_form_fees_inherit
+msgid "Invoiced"
+msgstr "Facturado"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_is_follower
+msgid "Is Follower"
+msgstr "É seguidor"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fsi_course
+msgid "LMS Course"
+msgstr "Curso LMS"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__write_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__write_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__write_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__write_uid
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__write_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__write_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__write_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__write_date
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_7_product_template
+msgid "Library Fees"
+msgstr "Taxas de biblioteca"
+
+#. module: fsieducation_fees
+#: model:res.groups,name:fsieducation_fees.group_fsi_fees_admin
+msgid "Manager"
+msgstr "Gerente"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro na entrega de mensagens"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_ids
+msgid "Messages"
+msgstr "Mensagens"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__no_days
+msgid "No of Days"
+msgstr "Nº de dias"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de ações"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de erros"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,help:fsieducation_fees.field_fsi_fees_terms__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Número de mensagens que exigem ação"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,help:fsieducation_fees.field_fsi_fees_terms__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensagens com erro de entrega"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.fees_detail_report_wizard_form
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__product_id
+msgid "Product"
+msgstr "produtos"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__product_id
+msgid "Product(s)"
+msgstr "Produtos)"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__rating_ids
+msgid "Ratings"
+msgstr "Avaliações"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro de entrega de SMS"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__sequence
+msgid "Sequence"
+msgstr "Seqüência"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__state
+msgid "Status"
+msgstr "Status"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fsi_student
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fees_detail_report_wizard__student_id
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__student_id
+#: model:ir.model.fields.selection,name:fsieducation_fees.selection__fees_detail_report_wizard__fees_filter__student
+msgid "Student"
+msgstr "Estudante"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fsi_student_course
+msgid "Student Course Details"
+msgstr "Detalhes do curso para estudantes"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fsi_student_fees_details
+msgid "Student Fees Details"
+msgstr "Detalhes das taxas estudantis"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.report_fees_analysis
+msgid "Student Name"
+msgstr "Nome do aluno"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_student_fees_details__date
+msgid "Submit Date"
+msgstr "Data de submissão"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__fees_terms
+msgid "Term Type"
+msgstr "Tipo de termo"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__line_ids
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.view_fees_terms_form
+msgid "Terms"
+msgstr "Termos"
+
+#. module: fsieducation_fees
+#. odoo-python
+#: code:addons/fsieducation_fees/models/student.py:0
+#, python-format
+msgid "The value of the deposit amount must be positive."
+msgstr "O valor do valor do depósito deve ser positivo."
+
+#. module: fsieducation_fees
+#. odoo-python
+#: code:addons/fsieducation_fees/models/student.py:0
+#, python-format
+msgid ""
+"There is no income account defined for this product: \"%s\".You may have to "
+"install a chart of account from Accounting app, settings menu."
+msgstr ""
+"Não há nenhuma conta de receita definida para este produto: \"%s\".Talvez "
+"seja necessário instalar um plano de conta no aplicativo Contabilidade, menu"
+" de configurações."
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.report_fees_analysis
+msgid "Total Amount"
+msgstr "Montante total"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.report_fees_analysis
+msgid "Total Invoiced"
+msgstr "Total Faturado"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.report_fees_analysis
+msgid "Total Left"
+msgstr "Total Esquerda"
+
+#. module: fsieducation_fees
+#: model_terms:ir.ui.view,arch_db:fsieducation_fees.report_fees_analysis
+msgid "Total Paid"
+msgstr "Total pago"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_9_product_template
+msgid "Transportation Fees"
+msgstr "Taxas de transporte"
+
+#. module: fsieducation_fees
+#: model:product.template,name:fsieducation_fees.fsi_product_8_product_template
+msgid "Tution Fees"
+msgstr "Taxas de matrícula"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__day_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: fsieducation_fees
+#: model:res.groups,name:fsieducation_fees.group_fsieducation_fees_user
+msgid "User"
+msgstr "Do utilizador"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_element__value
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms_line__value
+msgid "Value (%)"
+msgstr "Valor (%)"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,field_description:fsieducation_fees.field_fsi_fees_terms__website_message_ids
+msgid "Website Messages"
+msgstr "Mensagens do site"
+
+#. module: fsieducation_fees
+#: model:ir.model.fields,help:fsieducation_fees.field_fsi_fees_terms__website_message_ids
+msgid "Website communication history"
+msgstr "Histórico de comunicação do site"
+
+#. module: fsieducation_fees
+#: model:ir.model,name:fsieducation_fees.model_fees_detail_report_wizard
+msgid "Wizard For Fees Details Report"
+msgstr "Relatório de detalhes do assistente para taxas"
+

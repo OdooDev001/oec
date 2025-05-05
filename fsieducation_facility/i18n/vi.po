@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fsieducationerptranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-28 11:18+0000\n"
+"PO-Revision-Date: 2018-03-20 08:40-0400\n"
+"Last-Translator: akkicode <aakash@fsieducation.org>\n"
+"Language-Team: Vietnamese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: fsieducationerptranslation\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /master/fsieducation_facility/i18n/fsieducation_facility.pot\n"
+"Language: vi_VN\n"
+
+#. module: fsieducation_facility
+#: view:fsi.facility:fsieducation_facility.view_fsi_facility_search
+#: field:fsi.facility,Code:0
+msgid "Code"
+msgstr "Mã số"
+
+#. module: fsieducation_facility
+#: field:fsi.facility,create_uid:0
+#: field:fsi.facility.line,create_uid:0
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: fsieducation_facility
+#: field:fsi.facility,create_date:0
+#: field:fsi.facility.line,create_date:0
+msgid "Created on"
+msgstr "Tạo ngày"
+
+#. module: fsieducation_facility
+#: model:ir.actions.act_window,name:fsieducation_facility.act_fsien_fsi_facility_view
+#: model:ir.ui.menu,name:fsieducation_facility.menu_fsi_facility_sub
+#: view:fsi.facility.line:fsieducation_facility.fsi_facility_line_form_view
+#: view:fsi.facility.line:fsieducation_facility.fsi_facility_line_tree_view
+msgid "Facilities"
+msgstr "Tiện nghi"
+
+#. module: fsieducation_facility
+#: view:fsi.facility:fsieducation_facility.view_fsi_facility_form
+#: view:fsi.facility:fsieducation_facility.view_fsi_facility_search
+#: view:fsi.facility:fsieducation_facility.view_fsi_facility_tree
+#: field:fsi.facility.line,facility_id:0
+msgid "Facility"
+msgstr "Cơ sở"
+
+#. module: fsieducation_facility
+#: view:fsi.facility:fsieducation_facility.view_fsi_facility_search
+msgid "Group By..."
+msgstr "Nhóm theo..."
+
+#. module: fsieducation_facility
+#: field:fsi.facility,id:0
+#: field:fsi.facility.line,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: fsieducation_facility
+#: field:fsi.facility,write_uid:0
+#: field:fsi.facility.line,write_uid:0
+msgid "Last Updated by"
+msgstr "Cập Nhật lần cuối bởi"
+
+#. module: fsieducation_facility
+#: field:fsi.facility,write_date:0
+#: field:fsi.facility.line,write_date:0
+msgid "Last Updated on"
+msgstr "Lần cập nhật cuối"
+
+#. module: fsieducation_facility
+#: view:fsi.facility:fsieducation_facility.view_fsi_facility_search
+#: field:fsi.facility,Name:0
+msgid "Name"
+msgstr "Tên"
+
+#. module: fsieducation_facility
+#: field:fsi.facility.line,quantity:0
+msgid "Quantity"
+msgstr "Số lượng"
+

@@ -1,0 +1,165 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-15 09:10+0000"
+"PO-Revision-Date:2024-02-15 09:10+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__active
+msgid "Active"
+msgstr "Aktyvus"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Archived"
+msgstr "Suarchyvuota"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__asset_id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__asset_line
+msgid "Asset"
+msgstr "Turtas"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Asset Management"
+msgstr "Turto valdymas"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__batch_id
+msgid "Batch"
+msgstr "Partija"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Capacity"
+msgstr "Talpa"
+
+#. module: fsieducation_classroom
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_school_config_class_room
+msgid "Class Room Management"
+msgstr "Klasės kambario valdymas"
+
+#. module: fsieducation_classroom
+#: model:ir.actions.act_window,name:fsieducation_classroom.act_fsien_fsi_classroom_view
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_classroom_sub
+msgid "Class Rooms"
+msgstr "Klasės kambariai"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_facility_line__classroom_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_tree
+msgid "Classroom"
+msgstr "Klasė"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_asset
+msgid "Classroom Assets"
+msgstr "Klasės turtas"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__code
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__code
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Code"
+msgstr "Kodas"
+
+#. module: fsieducation_classroom
+#: model:ir.model.constraint,message:fsieducation_classroom.constraint_fsi_classroom_unique_classroom_code
+msgid "Code should be unique per classroom!"
+msgstr "Kodas turi būti unikalus kiekvienoje klasėje!"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__course_id
+msgid "Course"
+msgstr "Kursas"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_uid
+msgid "Created by"
+msgstr "Sukurta"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_date
+msgid "Created on"
+msgstr "Sukurtas"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__display_name
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__display_name
+msgid "Display Name"
+msgstr "Rodomas pavadinimas"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Facilities"
+msgstr "Įranga"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__facilities
+msgid "Facility Lines"
+msgstr "Įrenginių linijos"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Group By..."
+msgstr "Grupuoti pagal..."
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__id
+msgid "ID"
+msgstr "ID"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_uid
+msgid "Last Updated by"
+msgstr "Paskutinį kartą atnaujino"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_date
+msgid "Last Updated on"
+msgstr "Paskutinį kartą atnaujinta"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_facility_line
+msgid "Manage Facility Line"
+msgstr "Tvarkyti įrenginių liniją"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__name
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Name"
+msgstr "vardas"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__capacity
+msgid "No of Person"
+msgstr "Asmens Nr"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_id
+msgid "Product"
+msgstr "Produktas"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_uom_qty
+msgid "Quantity"
+msgstr "Kiekis"
+

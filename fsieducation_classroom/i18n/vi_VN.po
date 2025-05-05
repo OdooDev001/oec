@@ -1,0 +1,165 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:Odoo Server 17.0"
+"Report-Msgid-Bugs-To:"
+"POT-Creation-Date:2024-02-15 09:10+0000"
+"PO-Revision-Date:2024-02-15 09:10+0000"
+"Last-Translator:"
+"Language-Team:"
+"MIME-Version:1.0"
+"Content-Type:text/plain; charset=UTF-8"
+"Content-Transfer-Encoding:"
+"Plural-Forms:"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__active
+msgid "Active"
+msgstr "Tích cực"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Archived"
+msgstr "Đã lưu trữ"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__asset_id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__asset_line
+msgid "Asset"
+msgstr "Tài sản"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Asset Management"
+msgstr "Quản lý tài sản"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__batch_id
+msgid "Batch"
+msgstr "Lô hàng"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Capacity"
+msgstr "Dung tích"
+
+#. module: fsieducation_classroom
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_school_config_class_room
+msgid "Class Room Management"
+msgstr "Quản lý phòng học"
+
+#. module: fsieducation_classroom
+#: model:ir.actions.act_window,name:fsieducation_classroom.act_fsien_fsi_classroom_view
+#: model:ir.ui.menu,name:fsieducation_classroom.menu_fsi_classroom_sub
+msgid "Class Rooms"
+msgstr "Phòng học"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_facility_line__classroom_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_tree
+msgid "Classroom"
+msgstr "Lớp học"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_asset
+msgid "Classroom Assets"
+msgstr "Tài sản lớp học"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__code
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__code
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Code"
+msgstr "Mã số"
+
+#. module: fsieducation_classroom
+#: model:ir.model.constraint,message:fsieducation_classroom.constraint_fsi_classroom_unique_classroom_code
+msgid "Code should be unique per classroom!"
+msgstr "Mã phải là duy nhất cho mỗi lớp học!"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__course_id
+msgid "Course"
+msgstr "Khóa học"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__create_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__create_date
+msgid "Created on"
+msgstr "Được tạo ra"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__display_name
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_form
+msgid "Facilities"
+msgstr "Cơ sở"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__facilities
+msgid "Facility Lines"
+msgstr "Dòng cơ sở"
+
+#. module: fsieducation_classroom
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Group By..."
+msgstr "Nhóm theo..."
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__id
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__id
+msgid "ID"
+msgstr "NHẬN DẠNG"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_uid
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__write_date
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: fsieducation_classroom
+#: model:ir.model,name:fsieducation_classroom.model_fsi_facility_line
+msgid "Manage Facility Line"
+msgstr "Quản lý dòng cơ sở"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__name
+#: model_terms:ir.ui.view,arch_db:fsieducation_classroom.view_fsi_classroom_search
+msgid "Name"
+msgstr "Tên"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_classroom__capacity
+msgid "No of Person"
+msgstr "Số người"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_id
+msgid "Product"
+msgstr "Sản phẩm"
+
+#. module: fsieducation_classroom
+#: model:ir.model.fields,field_description:fsieducation_classroom.field_fsi_asset__product_uom_qty
+msgid "Quantity"
+msgstr "Số lượng"
+

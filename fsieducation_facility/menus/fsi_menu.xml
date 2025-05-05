@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_fsi_facility_sub"
+                  name="Facilities"
+                  parent="fsieducation_core.menu_fsi_school_config_general"
+                  sequence="20"
+                  action="act_open_fsi_facility_view"
+                  groups="fsieducation_facility.group_fsi_facility_manager"/>
+    </data>
+</odoo>

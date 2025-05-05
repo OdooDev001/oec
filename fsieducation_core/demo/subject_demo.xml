@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsi_subject_1" model="fsi.subject">
+            <field name="code">S-1</field>
+            <field name="name">Subject-1</field>
+            <field name="type">theory</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_2" model="fsi.subject">
+            <field name="code">S-2</field>
+            <field name="name">Subject-2</field>
+            <field name="type">theory</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_3" model="fsi.subject">
+            <field name="code">S-3</field>
+            <field name="name">Subject-3</field>
+            <field name="type">theory</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_4" model="fsi.subject">
+            <field name="code">S-4</field>
+            <field name="name">Subject-4</field>
+            <field name="type">theory</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_5" model="fsi.subject">
+            <field name="code">S-5</field>
+            <field name="name">Subject-5</field>
+            <field name="type">theory</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_6" model="fsi.subject">
+            <field name="code">S-6</field>
+            <field name="name">Subject-6</field>
+            <field name="type">both</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_7" model="fsi.subject">
+            <field name="code">S-7</field>
+            <field name="name">Subject-7</field>
+            <field name="type">theory</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_8" model="fsi.subject">
+            <field name="code">S-8</field>
+            <field name="name">Subject-8</field>
+            <field name="type">practical</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_9" model="fsi.subject">
+            <field name="code">S-9</field>
+            <field name="name">Subject-9</field>
+            <field name="type">theory</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_10" model="fsi.subject">
+            <field name="code">S-10</field>
+            <field name="name">Subject-10</field>
+            <field name="type">both</field>
+            <field name="department_id" ref="fsieducation_core.fsi_department_3"/>
+        </record>
+        <record id="fsi_subject_11" model="fsi.subject">
+            <field name="code">S-11</field>
+            <field name="name">Subject-11</field>
+            <field name="type">both</field>
+        </record>
+        <record id="fsi_subject_12" model="fsi.subject">
+            <field name="code">S-12</field>
+            <field name="name">Subject-12</field>
+            <field name="type">both</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_13" model="fsi.subject">
+            <field name="code">S-13</field>
+            <field name="name">Subject-13</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_14" model="fsi.subject">
+            <field name="code">S-14</field>
+            <field name="name">Subject-14</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_15" model="fsi.subject">
+            <field name="code">S-15</field>
+            <field name="name">Subject-15</field>
+            <field name="type">both</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_16" model="fsi.subject">
+            <field name="code">S-16</field>
+            <field name="name">Subject-16</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_17" model="fsi.subject">
+            <field name="code">S-17</field>
+            <field name="name">Subject-17</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_18" model="fsi.subject">
+            <field name="code">S-18</field>
+            <field name="name">Subject-18</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_19" model="fsi.subject">
+            <field name="code">S-19</field>
+            <field name="name">Subject-19</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_20" model="fsi.subject">
+            <field name="code">S-20</field>
+            <field name="name">Subject-20</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_21" model="fsi.subject">
+            <field name="code">S-21</field>
+            <field name="name">Subject-21</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_22" model="fsi.subject">
+            <field name="code">S-22</field>
+            <field name="name">Subject-22</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_23" model="fsi.subject">
+            <field name="code">S-23</field>
+            <field name="name">Subject-23</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_24" model="fsi.subject">
+            <field name="code">S-24</field>
+            <field name="name">Subject-24</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_25" model="fsi.subject">
+            <field name="code">S-25</field>
+            <field name="name">Subject-25</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_26" model="fsi.subject">
+            <field name="code">S-26</field>
+            <field name="name">Subject-26</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_27" model="fsi.subject">
+            <field name="code">S-27</field>
+            <field name="name">Subject-27</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_28" model="fsi.subject">
+            <field name="code">S-28</field>
+            <field name="name">Subject-28</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_29" model="fsi.subject">
+            <field name="code">S-29</field>
+            <field name="name">Subject-29</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_30" model="fsi.subject">
+            <field name="code">S-30</field>
+            <field name="name">Subject-30</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_31" model="fsi.subject">
+            <field name="code">S-31</field>
+            <field name="name">Subject-31</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_32" model="fsi.subject">
+            <field name="code">S-32</field>
+            <field name="name">Subject-32</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_33" model="fsi.subject">
+            <field name="code">S-33</field>
+            <field name="name">Subject-33</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_34" model="fsi.subject">
+            <field name="code">S-34</field>
+            <field name="name">Subject-34</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_35" model="fsi.subject">
+            <field name="code">S-35</field>
+            <field name="name">Subject-35</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_36" model="fsi.subject">
+            <field name="code">S-36</field>
+            <field name="name">Subject-36</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_37" model="fsi.subject">
+            <field name="code">S-37</field>
+            <field name="name">Subject-37</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_38" model="fsi.subject">
+            <field name="code">S-38</field>
+            <field name="name">Subject-38</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_39" model="fsi.subject">
+            <field name="code">S-39</field>
+            <field name="name">Subject-39</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+        <record id="fsi_subject_40" model="fsi.subject">
+            <field name="code">S-40</field>
+            <field name="name">Subject-40</field>
+            <field name="type">theory</field>
+            <field name="subject_type">elective</field>
+        </record>
+    </data>
+</odoo>
+
+

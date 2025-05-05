@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+<!--                          web_icon="fsieducation_attendance,static/description/icon.png"-->
+
+        <menuitem id="menu_fsi_attendance_root"
+                  name=" Class Attendances"
+                  sequence="290"
+                  groups="fsieducation_attendance.group_fsi_attendance_user,fsieducation_attendance.group_fsi_attendance_manager"/>
+
+        <menuitem id="menu_fsi_attendance"
+                  name="Attendance"
+                  parent="menu_fsi_attendance_root"
+                  sequence="10"/>
+
+        <menuitem id="menu_fsi_attendance_register_sub"
+                  name="Registers"
+                  parent="menu_fsi_attendance"
+                  sequence="10"
+                  action="action_open_fsi_attendance_register_view"
+                  groups="fsieducation_attendance.group_fsi_attendance_user,fsieducation_attendance.group_fsi_attendance_manager"/>
+
+        <menuitem id="menu_fsi_attendance_sheet_sub"
+                  name="Sheets"
+                  parent="menu_fsi_attendance"
+                  sequence="20"
+                  action="action_open_fsi_attendance_sheet_view"
+                  groups="fsieducation_attendance.group_fsi_attendance_user,fsieducation_attendance.group_fsi_attendance_manager"/>
+
+        <menuitem id="menu_fsi_attendance_line_sub"
+                  name="Attendance Lines"
+                  parent="menu_fsi_attendance"
+                  sequence="30"
+                  action="action_open_fsi_attendance_line_view"
+                  groups="fsieducation_attendance.group_fsi_attendance_manager,fsieducation_attendance.group_fsi_attendance_user"/>
+
+        <menuitem id="menu_fsi_attendance_config"
+                  parent="menu_fsi_attendance_root"
+                  name="Configuration"
+                  sequence="40"/>
+
+        <menuitem name="Settings"
+                  id="menu_attendance_config"
+                  parent="menu_fsi_attendance_config"
+                  action="fsieducation_core.action_fsieducation_configuration"
+                  groups="base.group_system"
+                  sequence="1"/>
+
+        <menuitem id="menu_fsi_attendance_type"
+                  name="Attendance Type"
+                  parent="menu_fsi_attendance_config"
+                  sequence="30"
+                  action="action_open_fsi_attendance_type_view"
+                  groups="fsieducation_attendance.group_fsi_attendance_manager"/>
+
+
+    </data>
+</odoo>

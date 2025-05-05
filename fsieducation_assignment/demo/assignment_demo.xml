@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsi_assignment_1" model="fsi.assignment">
+            <field name="name">BOA Sem-1-Asg-001</field>
+            <field name="state">publish</field>
+            <field name="marks">100</field>
+            <field name="assignment_type" ref="Assignment_type_1"/>
+            <field name="course_id" ref="fsieducation_core.fsi_course_2"/>
+            <field name="batch_id" ref="fsieducation_core.fsi_batch_1"/>
+            <field name="faculty_id" ref="fsieducation_core.fsi_faculty_1"/>
+            <field name="subject_id" ref="fsieducation_core.fsi_subject_1"/>
+            <field name="issued_date"
+                   eval="(DateTime.today() - relativedelta(days=10)).strftime('%Y-%m-%d')"/>
+            <field name="submission_date" eval="(datetime.now())"/>
+            <field name="allocation_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_student_1'), ref('fsieducation_core.fsi_student_2'), ref('fsieducation_core.fsi_student_3'), ref('fsieducation_core.fsi_student_4')])]"/>
+            <field name="description">Explain the following terms:- 1. AGI, 2. Tax credits, 3. Tax deductions, 4. Standard deduction, 5. Itemized deductions</field>
+        </record>
+
+        <record id="fsi_assignment_2" model="fsi.assignment">
+            <field name="name">Computer-001-Asg-001</field>
+            <field name="state">draft</field>
+            <field name="marks">50</field>
+            <field name="assignment_type" ref="Assignment_type_1"/>
+            <field name="course_id" ref="fsieducation_core.fsi_course_4"/>
+            <field name="batch_id" ref="fsieducation_core.fsi_batch_3"/>
+            <field name="faculty_id" ref="fsieducation_core.fsi_faculty_2"/>
+            <field name="subject_id" ref="fsieducation_core.fsi_subject_9"/>
+            <field name="issued_date" eval="datetime.now()"/>
+            <field name="submission_date"
+                   eval="(DateTime.today() + relativedelta(days=10)).strftime('%Y-%m-%d')"/>
+            <field name="allocation_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_student_9'), ref('fsieducation_core.fsi_student_10'), ref('fsieducation_core.fsi_student_11'), ref('fsieducation_core.fsi_student_12')])]"/>
+            <field name="description">Answer the following questions :- 1. Describe some examples of dynamic programming algorithms. 2. Explain binary search tree.</field>
+        </record>
+
+        <record id="fsi_assignment_3" model="fsi.assignment">
+            <field name="name">Computer-001-Asg-002</field>
+            <field name="state">draft</field>
+            <field name="marks">50</field>
+            <field name="assignment_type" ref="Assignment_type_1"/>
+            <field name="course_id" ref="fsieducation_core.fsi_course_4"/>
+            <field name="batch_id" ref="fsieducation_core.fsi_batch_3"/>
+            <field name="faculty_id" ref="fsieducation_core.fsi_faculty_6"/>
+            <field name="subject_id" ref="fsieducation_core.fsi_subject_10"/>
+            <field name="issued_date" eval="datetime.now()"/>
+            <field name="submission_date"
+                   eval="(DateTime.today() + relativedelta(days=10)).strftime('%Y-%m-%d')"/>
+            <field name="allocation_ids"
+                   eval="[(6,0, [ref('fsieducation_core.fsi_student_9'), ref('fsieducation_core.fsi_student_10'), ref('fsieducation_core.fsi_student_11'), ref('fsieducation_core.fsi_student_12')])]"/>
+            <field name="description">Please answer the following questions briefly: - 1. What is the difference between SOAP and REST 2. What are 3 main Web Development Technologies that you know?</field>
+        </record>
+
+        <record id="fsieducation_core.fsi_user_faculty" model="res.users">
+              <field name="groups_id"
+              eval="[(4,ref('fsieducation_assignment.group_fsi_assignment_user'))]"/>
+        </record>
+    </data>
+</odoo>

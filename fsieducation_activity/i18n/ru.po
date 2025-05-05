@@ -1,0 +1,421 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fsieducation_activity
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-12 11:46+0000\n"
+"PO-Revision-Date: 2024-02-12 11:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_needaction
+msgid "Action Needed"
+msgstr "Действие необходимо"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__active
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__active
+msgid "Active"
+msgstr "Активный"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_ids
+msgid "Activities"
+msgstr "мероприятия"
+
+#. module: fsieducation_activity
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.activity_smart_button
+msgid "Activity"
+msgstr "Мероприятия"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_student__activity_count
+msgid "Activity Count"
+msgstr "Счетчик деятельности"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: fsieducation_activity
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_graph
+msgid "Activity Graph View"
+msgstr "Вид графика деятельности"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_student__activity_log
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_tree
+msgid "Activity Log"
+msgstr "Журнал активности"
+
+#. module: fsieducation_activity
+#: model:ir.actions.act_window,name:fsieducation_activity.act_fsien_fsi_activity_view
+#: model:ir.ui.menu,name:fsieducation_activity.menu_fsi_activity_sub
+msgid "Activity Logs"
+msgstr "Журналы деятельности"
+
+#. module: fsieducation_activity
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_pivot
+msgid "Activity Pivot"
+msgstr "Активность поворота"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_state
+msgid "Activity State"
+msgstr "Состояние деятельности"
+
+#. module: fsieducation_activity
+#: model:ir.model,name:fsieducation_activity.model_fsi_activity_type
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__type_id
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_type_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_type_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_type_tree
+msgid "Activity Type"
+msgstr "Тип деятельности"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Значок типа деятельности"
+
+#. module: fsieducation_activity
+#: model:ir.actions.act_window,name:fsieducation_activity.act_fsien_fsi_activity_type_view
+#: model:ir.ui.menu,name:fsieducation_activity.menu_fsi_activity_type_sub
+msgid "Activity Types"
+msgstr "Типы деятельности"
+
+#. module: fsieducation_activity
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_search
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_type_form
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_type_search
+msgid "Archived"
+msgstr "Архивированный"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_attachment_count
+msgid "Attachment Count"
+msgstr "Подсчет приложений"
+
+#. module: fsieducation_activity
+#. odoo-python
+#: code:addons/fsieducation_activity/wizard/student_migrate_wizard.py:0
+#, python-format
+msgid ""
+"Can't migrate, As selected courses don't                             share "
+"same parent course!"
+msgstr "" 
+"Невозможно перенести, так как выбранные курсы этого не делают                             делиться "
+"тот же родительский курс!"
+
+#. module: fsieducation_activity
+#. odoo-python
+#: code:addons/fsieducation_activity/wizard/student_migrate_wizard.py:0
+#, python-format
+msgid "Can't migrate, Proceed for new admission"
+msgstr "Не может мигрировать, Proceed для нового приема"
+
+#. module: fsieducation_activity
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.student_migrate_form
+msgid "Cancel"
+msgstr "Отмена"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__course_completed
+msgid "Course Completed?"
+msgstr "Курс завершен?"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__create_uid
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__create_uid
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__create_uid
+msgid "Created by"
+msgstr "Сделано"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__create_date
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__create_date
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__create_date
+msgid "Created on"
+msgstr "Создано на"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__date
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__date
+msgid "Date"
+msgstr "Свидание"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__description
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.view_fsi_activity_form
+msgid "Description"
+msgstr "Описание"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__display_name
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__display_name
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__display_name
+msgid "Display Name"
+msgstr "Показать имя"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__faculty_id
+msgid "Faculty"
+msgstr "Факультет"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_follower_ids
+msgid "Followers"
+msgstr "Последователи"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Последователи (партнеры)"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Awesome икона шрифта, например FA-задачи"
+
+#. module: fsieducation_activity
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.student_migrate_form
+msgid "Forward"
+msgstr "Вперед"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__course_from_id
+msgid "From Course"
+msgstr "Из курса"
+
+#. module: fsieducation_activity
+#. odoo-python
+#: code:addons/fsieducation_activity/wizard/student_migrate_wizard.py:0
+#, python-format
+msgid "From Course must not be same as To Course!"
+msgstr "От курса не должна быть такой же, как на курс!"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__has_message
+msgid "Has Message"
+msgstr "Имеет сообщение"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__id
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__id
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__id
+msgid "ID"
+msgstr "Я БЫ"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_exception_icon
+msgid "Icon"
+msgstr "Значок"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Значок, чтобы указать на исключение."
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "При проверке новые сообщения требуют вашего внимания."
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__message_has_error
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "При проверке некоторые сообщения имеют ошибку доставки."
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_is_follower
+msgid "Is Follower"
+msgstr "Это последователь"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__write_uid
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__write_uid
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__write_uid
+msgid "Last Updated by"
+msgstr "Последнее обновлено"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__write_date
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__write_date
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__write_date
+msgid "Last Updated on"
+msgstr "Последнее обновлено"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_has_error
+msgid "Message Delivery error"
+msgstr "Ошибка доставки сообщения"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_ids
+msgid "Messages"
+msgstr "Сообщения"
+
+#. module: fsieducation_activity
+#. odoo-python
+#: code:addons/fsieducation_activity/wizard/student_migrate_wizard.py:0
+#, python-format
+msgid "Migration From {} to Completed Course"
+msgstr "Миграция с {} на завершенный курс"
+
+#. module: fsieducation_activity
+#. odoo-python
+#: code:addons/fsieducation_activity/wizard/student_migrate_wizard.py:0
+#, python-format
+msgid "Migration from {} to {}"
+msgstr "Миграция с {} на {}
+"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Мой крайний срок действия"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity_type__name
+msgid "Name"
+msgstr "Имя"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Следующее событие календаря действий"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Следующий крайний срок действия"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_summary
+msgid "Next Activity Summary"
+msgstr "Следующее резюме деятельности"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_type_id
+msgid "Next Activity Type"
+msgstr "Следующий тип деятельности"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Количество действий"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_has_error_counter
+msgid "Number of errors"
+msgstr "Количество ошибок"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Количество сообщений, которые требуют действия"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Количество сообщений с ошибкой доставки"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__fsitional_sub
+msgid "Optional Subjects"
+msgstr "Дополнительные предметы"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__rating_ids
+msgid "Ratings"
+msgstr "Рейтинги"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__activity_user_id
+msgid "Responsible User"
+msgstr "Ответственный пользователь"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "СМС ошибка доставки"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Статус на основе деятельности\n"
+"Просрочен: дата срока уже прошла\n"
+"Сегодня: дата деятельности сегодня\n"
+"Запланировано: будущие мероприятия."
+
+#. module: fsieducation_activity
+#: model:ir.model,name:fsieducation_activity.model_fsi_student
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__student_id
+msgid "Student"
+msgstr "Ученик"
+
+#. module: fsieducation_activity
+#: model:ir.model,name:fsieducation_activity.model_fsi_activity
+msgid "Student Activity"
+msgstr "Студенческая деятельность"
+
+#. module: fsieducation_activity
+#: model:ir.model,name:fsieducation_activity.model_student_migrate
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.student_migrate_form
+msgid "Student Migrate"
+msgstr "Студент мигрирует"
+
+#. module: fsieducation_activity
+#: model:ir.actions.act_window,name:fsieducation_activity.act_fsien_student_migrate_view
+#: model:ir.ui.menu,name:fsieducation_activity.menu_student_migrate
+msgid "Student Migration"
+msgstr "Студенческая миграция"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__student_ids
+#: model_terms:ir.ui.view,arch_db:fsieducation_activity.student_migrate_form
+msgid "Student(s)"
+msgstr "Ученики)"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__batch_id
+msgid "To Batch"
+msgstr "На партию"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_student_migrate__course_to_id
+msgid "To Course"
+msgstr "К курсу"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип исключения деятельности на записи."
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,field_description:fsieducation_activity.field_fsi_activity__website_message_ids
+msgid "Website Messages"
+msgstr "Сообщения веб -сайта"
+
+#. module: fsieducation_activity
+#: model:ir.model.fields,help:fsieducation_activity.field_fsi_activity__website_message_ids
+msgid "Website communication history"
+msgstr "История общения веб -сайта"

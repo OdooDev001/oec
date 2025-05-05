@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_fsi_student_root"
+                  name="Students"
+                  sequence="260"
+                  web_icon="fsieducation_core,static/description/icon_student.png"
+                  groups="fsieducation_core.group_fsi_back_office_admin,fsieducation_core.group_fsi_faculty"/>
+        <menuitem id="menu_fsi_student_main_student"
+                  name="Profile"
+                  parent="menu_fsi_student_root"
+                  sequence="20"
+                  action="act_open_fsi_student_view_2"
+                  groups="group_fsi_back_office_admin,fsieducation_core.group_fsi_faculty"/>
+
+        <menuitem id="menu_fsi_general_student"
+                  parent="menu_fsi_student_root"
+                  sequence="20"
+                  name="General"/>
+
+        <menuitem id="subject_registration_student_menu"
+                  name="Subject Registration"
+                  parent="fsieducation_core.menu_fsi_general_student"
+                  sequence="30"
+                  action="act_subject_registration_view"
+                  groups="fsieducation_core.group_fsi_back_office_admin,fsieducation_core.group_fsi_faculty"/>
+
+        <menuitem id="student_course_menu"
+                  name="Student Course Detail"
+                  parent="fsieducation_core.menu_fsi_general_student"
+                  sequence="40"
+                  action="act_open_fsi_student_course_view"
+                  groups="fsieducation_core.group_fsi_back_office_admin,fsieducation_core.group_fsi_faculty"/>
+    </data>
+</odoo>

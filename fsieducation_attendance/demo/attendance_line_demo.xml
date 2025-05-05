@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsi_attendance_line_1" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_1"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_2" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_1"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_3" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_1"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_4" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_1"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_5" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_2"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_6" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_2"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_7" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_2"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_8" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_2"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_9" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_3"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_10" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_3"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_11" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_3"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_12" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_3"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_13" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_4"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_14" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_4"/>
+            <field name="absent" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_15" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_4"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_16" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_4"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_17" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_5"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_18" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_5"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_19" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_5"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_20" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_5"/>
+            <field name="absent" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_21" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_6"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_22" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_6"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_23" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_6"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_24" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_6"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_25" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_7"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_26" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_7"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_27" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_7"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_28" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_7"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_29" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_8"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_30" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_8"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_31" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_8"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_32" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_8"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_33" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_9"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_34" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_9"/>
+            <field name="excused" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_35" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_9"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_36" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_9"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_37" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_10"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_38" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_10"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_39" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_10"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_40" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_10"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_41" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_11"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_42" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_11"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_43" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_11"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_44" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_11"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_45" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_12"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_46" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_12"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_47" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_12"/>
+            <field name="absent" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_48" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_12"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_49" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_13"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_50" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_13"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_51" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_13"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_52" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_13"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_53" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_14"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_54" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_14"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_55" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_14"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_56" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_14"/>
+            <field name="late" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_57" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_15"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_58" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_15"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_59" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_15"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_60" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_15"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_61" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_16"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_62" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_16"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_63" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_16"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_64" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_16"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_65" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_17"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_66" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_17"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_67" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_17"/>
+            <field name="excused" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_68" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_17"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_69" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_18"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_70" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_18"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_71" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_18"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_72" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_18"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_73" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_19"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_74" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_19"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_75" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_19"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_76" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_19"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_77" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_20"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_78" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_20"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_79" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_20"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_80" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_20"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_81" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_21"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_82" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_21"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_83" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_21"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_84" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_21"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_85" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_22"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_86" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_22"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_87" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_22"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_88" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_22"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_89" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_23"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_90" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_23"/>
+            <field name="late" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_91" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_23"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_92" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_23"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_93" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_24"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_94" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_24"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_95" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_24"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_96" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_24"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_97" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_25"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_98" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_25"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_99" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_25"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_100" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_25"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_101" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_26"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_102" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_26"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_103" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_26"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_104" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_26"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_105" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_27"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_106" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_27"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_107" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_27"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_108" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_27"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_109" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_28"/>
+            <field name="absent" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_110" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_28"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_111" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_28"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_112" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_28"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_113" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_29"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_114" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_29"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_115" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_29"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_116" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_29"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_117" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_30"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_118" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_30"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_119" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_30"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_120" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_30"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_121" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_31"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_122" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_31"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_123" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_31"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_124" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_31"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_4"/>
+        </record>
+
+        <record id="fsi_attendance_line_125" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_32"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_126" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_32"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_127" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_32"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_128" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_33"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_129" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_33"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_130" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_33"/>
+            <field name="excused" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_131" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_34"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_132" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_34"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_133" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_34"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_134" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_35"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_135" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_35"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_136" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_35"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_137" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_36"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_138" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_36"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_139" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_36"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_140" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_37"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_141" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_37"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_142" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_37"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_143" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_38"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_144" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_38"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_145" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_38"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_146" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_39"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_147" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_39"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_148" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_39"/>
+            <field name="absent" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_149" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_40"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_150" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_40"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_151" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_40"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_152" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_41"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_153" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_41"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_154" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_41"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_155" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_42"/>
+            <field name="late" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_156" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_42"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_157" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_42"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_158" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_43"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_159" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_43"/>
+            <field name="excused" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_160" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_43"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_161" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_44"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_162" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_44"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_163" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_44"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_164" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_45"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_165" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_45"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_166" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_45"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_167" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_46"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_168" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_46"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_169" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_46"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_170" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_47"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_171" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_47"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_172" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_47"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_173" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_48"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_174" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_48"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_175" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_48"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_176" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_49"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_177" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_49"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_178" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_49"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_179" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_50"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_180" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_50"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_181" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_50"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_182" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_51"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_183" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_51"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_184" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_51"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_185" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_52"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_186" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_52"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_187" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_52"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_188" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_53"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_189" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_53"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_190" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_53"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_191" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_54"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_192" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_54"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_193" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_54"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_194" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_55"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_195" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_55"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_196" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_55"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_197" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_56"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_198" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_56"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_199" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_56"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_200" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_57"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_201" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_57"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_202" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_57"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_203" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_58"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_204" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_58"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_205" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_58"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_206" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_59"/>
+            <field name="present" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_207" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_59"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_208" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_59"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_209" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_60"/>
+            <field name="excused" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_210" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_60"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_211" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_60"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_212" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_61"/>
+            <field name="late" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_213" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_61"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_214" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_61"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsi_attendance_line_215" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_62"/>
+            <field name="excused" eval="False"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_1"/>
+        </record>
+
+        <record id="fsi_attendance_line_216" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_62"/>
+            <field name="absent" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_2"/>
+        </record>
+
+        <record id="fsi_attendance_line_217" model="fsi.attendance.line">
+            <field name="attendance_id" ref="fsi_attendance_sheet_62"/>
+            <field name="present" eval="True"/>
+            <field name="student_id" ref="fsieducation_core.fsi_student_3"/>
+        </record>
+
+        <record id="fsieducation_core.fsi_user_faculty" model="res.users">
+            <field name="groups_id"
+            eval="[(4,ref('fsieducation_attendance.group_fsi_attendance_user'))]"/>
+        </record>
+    </data>
+</odoo>

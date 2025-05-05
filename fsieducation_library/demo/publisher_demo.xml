@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="fsi_publisher_1" model="fsi.publisher">
+            <field name="name">O'Relly Publication</field>
+        </record>
+
+        <record id="fsi_publisher_2" model="fsi.publisher">
+            <field name="name">Delhi Publications</field>
+        </record>
+
+        <record id="fsi_publisher_3" model="fsi.publisher">
+            <field name="name">Wiley Publications</field>
+        </record>
+    </data>
+</odoo>

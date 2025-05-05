@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="assignment_smart_button" model="ir.ui.view">
+            <field name="name">assignment.smart.buttons</field>
+            <field name="model">fsi.student</field>
+            <field name="inherit_id" ref="fsieducation_core.view_fsi_student_form"/>
+            <field name="priority" eval="3"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='button_box']" position="inside">
+                    <button class="btn oe_stat_button"
+                            type="object"
+                            name="get_assignment"
+                            style="border-right: 1px solid;"
+                            icon="fa-newspaper-o"
+                            groups="fsieducation_assignment.group_fsi_assignment_user,fsieducation_assignment.group_fsi_assignment_manager">
+                        <field string="Assignment" name="assignment_count" widget="statinfo"/>
+                    </button>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
