@@ -93,15 +93,4 @@
     'auto_install': False,
     'application': True,
     'post_init_hook': '_fsieducation_post_init',
-    'assets': {
-        'website.assets_frontend': [
-            '/fsieducation_core/static/src/scss/main.scss',
-        ],
-        'web.assets_backend': [
-            '/fsieducation_core/static/src/scss/style.scss',
-            '/fsieducation_core/static/src/js/g2_review.js',
-            '/fsieducation_core/static/src/xml/review.xml',
-            '/fsieducation_core/static/src/xml/web_client.xml',
-        ],
-    },
 }

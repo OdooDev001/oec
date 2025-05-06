@@ -32,6 +32,6 @@ class FSIDepartment(models.Model):
 
     @api.model_create_multi
     def create(self, vals):
-        department = super(OpDepartment, self).create(vals)
+        department = super(FSIDepartment, self).create(vals)
         self.env.user.write({'department_ids': [(4, department.id)]})
         return department

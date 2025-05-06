@@ -49,7 +49,6 @@
         'views/fsi_menu.xml',
         'report/report_ticket.xml',
         'report/student_marksheet.xml',
-        'report/report_action.xml',
     ],
     'demo': [
         'demo/exam_room_demo.xml',

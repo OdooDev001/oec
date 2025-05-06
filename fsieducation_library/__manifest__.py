@@ -61,7 +61,7 @@
         'views/media_type_view.xml',
         'views/student_view.xml',
         'views/faculty_view.xml',
-        'menus/fsi_menu.xml',
+        'views/fsi_menu.xml',
     ],
     'demo': [
         'demo/media_type_demo.xml',
